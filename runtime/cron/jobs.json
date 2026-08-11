@@ -240,7 +240,55 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "163251c751f5",
+      "name": "Backup sanitizado \u2014 Hermes Aceli",
+      "prompt": "Execute a sincroniza\u00e7\u00e3o sanitizada do workspace Hermes Aceli. O script s\u00f3 produz sa\u00edda quando publicar um backup; sa\u00edda vazia significa sil\u00eancio.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": null,
+      "model_snapshot": null,
+      "base_url": null,
+      "script": "hermes-aceli-sync.sh",
+      "no_agent": true,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 6 * * *",
+        "display": "15 6 * * *"
+      },
+      "schedule_display": "15 6 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-11T04:06:23.764535+00:00",
+      "next_run_at": "2026-08-12T06:15:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "Jo\u00e3o Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-08-10T18:09:28.080811+00:00"
+  "updated_at": "2026-08-11T06:15:59.004249+00:00"
 }

@@ -54,6 +54,7 @@ Produce a reviewable, restorable, least-privilege backup repository that holds c
    - Run a deterministic scanner for forbidden paths and high-confidence secret signatures (private-key blocks, GitHub tokens, API-key assignments).
    - Treat scanner matches conservatively: block and review rather than publish a questionable file.
    - Verify the export has non-zero expected content. A successful scanner alone does not prove the exporter selected the correct source.
+   - When exported skills are exact third-party/runtime mirrors, preserve them as vendored content with `.gitattributes` (for example, `runtime/skills/** -whitespace linguist-vendored`). Run whitespace checks strictly on hand-authored control-plane files while the secret scanner still covers the entire repository; never mass-reformat mirrored source just to quiet a diff check.
    - Inspect `git status` and `git diff --cached` before committing.
 
 7. **Commit and publish deliberately**
