@@ -1,0 +1,1225 @@
+{
+  "schema_version": 1,
+  "exported_at_utc": "2026-08-11T04:01:58.683005+00:00",
+  "source": "/root/.hermes",
+  "copied": [
+    "runtime/memories/MEMORY.md",
+    "runtime/memories/USER.md",
+    "runtime/cron/jobs.json",
+    "runtime/skills/apple/DESCRIPTION.md",
+    "runtime/skills/apple/apple-notes/SKILL.md",
+    "runtime/skills/apple/apple-reminders/SKILL.md",
+    "runtime/skills/apple/findmy/SKILL.md",
+    "runtime/skills/apple/imessage/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/DESCRIPTION.md",
+    "runtime/skills/autonomous-ai-agents/agent-identity-design/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/agent-identity-design/references/interview-question-bank.md",
+    "runtime/skills/autonomous-ai-agents/agent-identity-design/templates/SOUL.template.md",
+    "runtime/skills/autonomous-ai-agents/claude-code/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/codex/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/computer-use/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/background-systems.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/cli-reference.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/configuration.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/contributor-guide.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/delegate-task-concurrency-diagnosis.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/desktop-plugins.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/petdex.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/portal-auth-for-third-party-apps.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/project-context-files.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/security-privacy.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/slash-commands.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/themes.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/troubleshooting.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/tui-widgets.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/references/windows-quirks.md",
+    "runtime/skills/autonomous-ai-agents/hermes-agent/templates/skin.yaml",
+    "runtime/skills/autonomous-ai-agents/hermes-docker-operations/SKILL.md",
+    "runtime/skills/autonomous-ai-agents/hermes-docker-operations/references/persistent-local-stt.md",
+    "runtime/skills/autonomous-ai-agents/opencode/SKILL.md",
+    "runtime/skills/communication/voz-do-adriano/SKILL.md",
+    "runtime/skills/creative/DESCRIPTION.md",
+    "runtime/skills/creative/architecture-diagram/SKILL.md",
+    "runtime/skills/creative/ascii-art/SKILL.md",
+    "runtime/skills/creative/ascii-video/README.md",
+    "runtime/skills/creative/ascii-video/SKILL.md",
+    "runtime/skills/creative/ascii-video/references/architecture.md",
+    "runtime/skills/creative/ascii-video/references/composition.md",
+    "runtime/skills/creative/ascii-video/references/effects.md",
+    "runtime/skills/creative/ascii-video/references/inputs.md",
+    "runtime/skills/creative/ascii-video/references/optimization.md",
+    "runtime/skills/creative/ascii-video/references/scenes.md",
+    "runtime/skills/creative/ascii-video/references/shaders.md",
+    "runtime/skills/creative/ascii-video/references/troubleshooting.md",
+    "runtime/skills/creative/baoyu-infographic/PORT_NOTES.md",
+    "runtime/skills/creative/baoyu-infographic/SKILL.md",
+    "runtime/skills/creative/baoyu-infographic/references/analysis-framework.md",
+    "runtime/skills/creative/baoyu-infographic/references/base-prompt.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/bento-grid.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/binary-comparison.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/bridge.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/circular-flow.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/comic-strip.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/comparison-matrix.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/dashboard.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/dense-modules.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/funnel.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/hierarchical-layers.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/hub-spoke.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/iceberg.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/isometric-map.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/jigsaw.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/linear-progression.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/periodic-table.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/story-mountain.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/structural-breakdown.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/tree-branching.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/venn-diagram.md",
+    "runtime/skills/creative/baoyu-infographic/references/layouts/winding-roadmap.md",
+    "runtime/skills/creative/baoyu-infographic/references/structured-content-template.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/aged-academia.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/bold-graphic.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/chalkboard.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/claymation.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/corporate-memphis.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/craft-handmade.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/cyberpunk-neon.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/hand-drawn-edu.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/ikea-manual.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/kawaii.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/knolling.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/lego-brick.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/morandi-journal.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/origami.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/pixel-art.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/pop-laboratory.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/retro-pop-grid.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/storybook-watercolor.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/subway-map.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/technical-schematic.md",
+    "runtime/skills/creative/baoyu-infographic/references/styles/ui-wireframe.md",
+    "runtime/skills/creative/brand-mascot-design/SKILL.md",
+    "runtime/skills/creative/brand-mascot-design/references/dataceler-sansao.md",
+    "runtime/skills/creative/claude-design/SKILL.md",
+    "runtime/skills/creative/comfyui/references/official-cli.md",
+    "runtime/skills/creative/comfyui/references/template-integrity.md",
+    "runtime/skills/creative/comfyui/references/workflow-format.md",
+    "runtime/skills/creative/comfyui/scripts/_common.py",
+    "runtime/skills/creative/comfyui/scripts/comfyui_setup.sh",
+    "runtime/skills/creative/comfyui/scripts/extract_schema.py",
+    "runtime/skills/creative/comfyui/scripts/hardware_check.py",
+    "runtime/skills/creative/comfyui/tests/README.md",
+    "runtime/skills/creative/comfyui/tests/conftest.py",
+    "runtime/skills/creative/comfyui/tests/test_check_deps.py",
+    "runtime/skills/creative/comfyui/tests/test_cloud_integration.py",
+    "runtime/skills/creative/comfyui/tests/test_common.py",
+    "runtime/skills/creative/comfyui/tests/test_extract_schema.py",
+    "runtime/skills/creative/comfyui/tests/test_run_workflow.py",
+    "runtime/skills/creative/comfyui/workflows/README.md",
+    "runtime/skills/creative/comfyui/workflows/animatediff_video.json",
+    "runtime/skills/creative/comfyui/workflows/flux_dev_txt2img.json",
+    "runtime/skills/creative/comfyui/workflows/sd15_txt2img.json",
+    "runtime/skills/creative/comfyui/workflows/sdxl_img2img.json",
+    "runtime/skills/creative/comfyui/workflows/sdxl_inpaint.json",
+    "runtime/skills/creative/comfyui/workflows/sdxl_txt2img.json",
+    "runtime/skills/creative/comfyui/workflows/upscale_4x.json",
+    "runtime/skills/creative/comfyui/workflows/wan_video_t2v.json",
+    "runtime/skills/creative/design-md/SKILL.md",
+    "runtime/skills/creative/design-md/templates/starter.md",
+    "runtime/skills/creative/excalidraw/SKILL.md",
+    "runtime/skills/creative/excalidraw/references/colors.md",
+    "runtime/skills/creative/excalidraw/references/dark-mode.md",
+    "runtime/skills/creative/excalidraw/references/examples.md",
+    "runtime/skills/creative/excalidraw/scripts/upload.py",
+    "runtime/skills/creative/humanizer/SKILL.md",
+    "runtime/skills/creative/manim-video/README.md",
+    "runtime/skills/creative/manim-video/SKILL.md",
+    "runtime/skills/creative/manim-video/references/animation-design-thinking.md",
+    "runtime/skills/creative/manim-video/references/animations.md",
+    "runtime/skills/creative/manim-video/references/camera-and-3d.md",
+    "runtime/skills/creative/manim-video/references/decorations.md",
+    "runtime/skills/creative/manim-video/references/equations.md",
+    "runtime/skills/creative/manim-video/references/graphs-and-data.md",
+    "runtime/skills/creative/manim-video/references/mobjects.md",
+    "runtime/skills/creative/manim-video/references/paper-explainer.md",
+    "runtime/skills/creative/manim-video/references/production-quality.md",
+    "runtime/skills/creative/manim-video/references/rendering.md",
+    "runtime/skills/creative/manim-video/references/scene-planning.md",
+    "runtime/skills/creative/manim-video/references/troubleshooting.md",
+    "runtime/skills/creative/manim-video/references/updaters-and-trackers.md",
+    "runtime/skills/creative/manim-video/references/visual-design.md",
+    "runtime/skills/creative/manim-video/scripts/setup.sh",
+    "runtime/skills/creative/p5js/README.md",
+    "runtime/skills/creative/p5js/SKILL.md",
+    "runtime/skills/creative/p5js/references/animation.md",
+    "runtime/skills/creative/p5js/references/color-systems.md",
+    "runtime/skills/creative/p5js/references/core-api.md",
+    "runtime/skills/creative/p5js/references/export-pipeline.md",
+    "runtime/skills/creative/p5js/references/interaction.md",
+    "runtime/skills/creative/p5js/references/shapes-and-geometry.md",
+    "runtime/skills/creative/p5js/references/troubleshooting.md",
+    "runtime/skills/creative/p5js/references/typography.md",
+    "runtime/skills/creative/p5js/references/visual-effects.md",
+    "runtime/skills/creative/p5js/references/webgl-and-3d.md",
+    "runtime/skills/creative/p5js/scripts/render.sh",
+    "runtime/skills/creative/p5js/scripts/serve.sh",
+    "runtime/skills/creative/p5js/scripts/setup.sh",
+    "runtime/skills/creative/popular-web-designs/SKILL.md",
+    "runtime/skills/creative/popular-web-designs/templates/airbnb.md",
+    "runtime/skills/creative/popular-web-designs/templates/airtable.md",
+    "runtime/skills/creative/popular-web-designs/templates/apple.md",
+    "runtime/skills/creative/popular-web-designs/templates/bmw.md",
+    "runtime/skills/creative/popular-web-designs/templates/cal.md",
+    "runtime/skills/creative/popular-web-designs/templates/claude.md",
+    "runtime/skills/creative/popular-web-designs/templates/clay.md",
+    "runtime/skills/creative/popular-web-designs/templates/clickhouse.md",
+    "runtime/skills/creative/popular-web-designs/templates/cohere.md",
+    "runtime/skills/creative/popular-web-designs/templates/coinbase.md",
+    "runtime/skills/creative/popular-web-designs/templates/composio.md",
+    "runtime/skills/creative/popular-web-designs/templates/cursor.md",
+    "runtime/skills/creative/popular-web-designs/templates/elevenlabs.md",
+    "runtime/skills/creative/popular-web-designs/templates/expo.md",
+    "runtime/skills/creative/popular-web-designs/templates/figma.md",
+    "runtime/skills/creative/popular-web-designs/templates/framer.md",
+    "runtime/skills/creative/popular-web-designs/templates/hashicorp.md",
+    "runtime/skills/creative/popular-web-designs/templates/ibm.md",
+    "runtime/skills/creative/popular-web-designs/templates/intercom.md",
+    "runtime/skills/creative/popular-web-designs/templates/kraken.md",
+    "runtime/skills/creative/popular-web-designs/templates/linear.app.md",
+    "runtime/skills/creative/popular-web-designs/templates/lovable.md",
+    "runtime/skills/creative/popular-web-designs/templates/minimax.md",
+    "runtime/skills/creative/popular-web-designs/templates/mintlify.md",
+    "runtime/skills/creative/popular-web-designs/templates/miro.md",
+    "runtime/skills/creative/popular-web-designs/templates/mistral.ai.md",
+    "runtime/skills/creative/popular-web-designs/templates/mongodb.md",
+    "runtime/skills/creative/popular-web-designs/templates/notion.md",
+    "runtime/skills/creative/popular-web-designs/templates/nvidia.md",
+    "runtime/skills/creative/popular-web-designs/templates/ollama.md",
+    "runtime/skills/creative/popular-web-designs/templates/opencode.ai.md",
+    "runtime/skills/creative/popular-web-designs/templates/pinterest.md",
+    "runtime/skills/creative/popular-web-designs/templates/posthog.md",
+    "runtime/skills/creative/popular-web-designs/templates/raycast.md",
+    "runtime/skills/creative/popular-web-designs/templates/replicate.md",
+    "runtime/skills/creative/popular-web-designs/templates/resend.md",
+    "runtime/skills/creative/popular-web-designs/templates/revolut.md",
+    "runtime/skills/creative/popular-web-designs/templates/runwayml.md",
+    "runtime/skills/creative/popular-web-designs/templates/sanity.md",
+    "runtime/skills/creative/popular-web-designs/templates/sentry.md",
+    "runtime/skills/creative/popular-web-designs/templates/spacex.md",
+    "runtime/skills/creative/popular-web-designs/templates/spotify.md",
+    "runtime/skills/creative/popular-web-designs/templates/stripe.md",
+    "runtime/skills/creative/popular-web-designs/templates/supabase.md",
+    "runtime/skills/creative/popular-web-designs/templates/superhuman.md",
+    "runtime/skills/creative/popular-web-designs/templates/together.ai.md",
+    "runtime/skills/creative/popular-web-designs/templates/uber.md",
+    "runtime/skills/creative/popular-web-designs/templates/vercel.md",
+    "runtime/skills/creative/popular-web-designs/templates/voltagent.md",
+    "runtime/skills/creative/popular-web-designs/templates/warp.md",
+    "runtime/skills/creative/popular-web-designs/templates/webflow.md",
+    "runtime/skills/creative/popular-web-designs/templates/wise.md",
+    "runtime/skills/creative/popular-web-designs/templates/x.ai.md",
+    "runtime/skills/creative/popular-web-designs/templates/zapier.md",
+    "runtime/skills/creative/pretext/SKILL.md",
+    "runtime/skills/creative/pretext/references/patterns.md",
+    "runtime/skills/creative/sketch/SKILL.md",
+    "runtime/skills/creative/songwriting-and-ai-music/SKILL.md",
+    "runtime/skills/creative/touchdesigner-mcp/SKILL.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/3d-scene.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/animation.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/audio-reactive.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/dat-scripting.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/external-data.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/geometry-comp.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/glsl.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/layout-compositor.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/mcp-tools.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/midi-osc.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/network-patterns.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/operator-tips.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/operators.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/panel-ui.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/particles.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/pitfalls.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/postfx.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/projection-mapping.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/python-api.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/replicator.md",
+    "runtime/skills/creative/touchdesigner-mcp/references/troubleshooting.md",
+    "runtime/skills/creative/touchdesigner-mcp/scripts/setup.sh",
+    "runtime/skills/creative/voz-do-joao/SKILL.md",
+    "runtime/skills/creative/voz-do-joao/references/voice-evidence.md",
+    "runtime/skills/data-science/DESCRIPTION.md",
+    "runtime/skills/data-science/jupyter-live-kernel/SKILL.md",
+    "runtime/skills/email/DESCRIPTION.md",
+    "runtime/skills/email/himalaya/SKILL.md",
+    "runtime/skills/email/himalaya/references/configuration.md",
+    "runtime/skills/email/himalaya/references/message-composition.md",
+    "runtime/skills/github/DESCRIPTION.md",
+    "runtime/skills/github/codebase-inspection/SKILL.md",
+    "runtime/skills/github/github-auth/SKILL.md",
+    "runtime/skills/github/github-auth/scripts/gh-env.sh",
+    "runtime/skills/github/github-code-review/SKILL.md",
+    "runtime/skills/github/github-code-review/references/review-output-template.md",
+    "runtime/skills/github/github-issues/SKILL.md",
+    "runtime/skills/github/github-issues/templates/bug-report.md",
+    "runtime/skills/github/github-issues/templates/feature-request.md",
+    "runtime/skills/github/github-pr-workflow/SKILL.md",
+    "runtime/skills/github/github-pr-workflow/references/ci-troubleshooting.md",
+    "runtime/skills/github/github-pr-workflow/references/conventional-commits.md",
+    "runtime/skills/github/github-pr-workflow/templates/pr-body-bugfix.md",
+    "runtime/skills/github/github-pr-workflow/templates/pr-body-feature.md",
+    "runtime/skills/github/github-repo-management/SKILL.md",
+    "runtime/skills/github/github-repo-management/references/github-api-cheatsheet.md",
+    "runtime/skills/hermes-desktop-plugins/SKILL.md",
+    "runtime/skills/media/DESCRIPTION.md",
+    "runtime/skills/media/gif-search/SKILL.md",
+    "runtime/skills/media/heartmula/SKILL.md",
+    "runtime/skills/media/songsee/SKILL.md",
+    "runtime/skills/media/youtube-content/SKILL.md",
+    "runtime/skills/media/youtube-content/references/output-formats.md",
+    "runtime/skills/media/youtube-content/scripts/fetch_transcript.py",
+    "runtime/skills/media/youtube-content/scripts/run_transcript.py",
+    "runtime/skills/mlops/DESCRIPTION.md",
+    "runtime/skills/mlops/evaluation/DESCRIPTION.md",
+    "runtime/skills/mlops/evaluation/evaluating-llms-harness/SKILL.md",
+    "runtime/skills/mlops/evaluation/evaluating-llms-harness/references/api-evaluation.md",
+    "runtime/skills/mlops/evaluation/evaluating-llms-harness/references/benchmark-guide.md",
+    "runtime/skills/mlops/evaluation/evaluating-llms-harness/references/custom-tasks.md",
+    "runtime/skills/mlops/evaluation/evaluating-llms-harness/references/distributed-eval.md",
+    "runtime/skills/mlops/evaluation/weights-and-biases/SKILL.md",
+    "runtime/skills/mlops/evaluation/weights-and-biases/references/artifacts.md",
+    "runtime/skills/mlops/evaluation/weights-and-biases/references/integrations.md",
+    "runtime/skills/mlops/evaluation/weights-and-biases/references/sweeps.md",
+    "runtime/skills/mlops/huggingface-hub/SKILL.md",
+    "runtime/skills/mlops/inference/DESCRIPTION.md",
+    "runtime/skills/mlops/inference/llama-cpp/SKILL.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/advanced-usage.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/hub-discovery.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/optimization.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/quantization.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/server.md",
+    "runtime/skills/mlops/inference/llama-cpp/references/troubleshooting.md",
+    "runtime/skills/mlops/inference/serving-llms-vllm/SKILL.md",
+    "runtime/skills/mlops/inference/serving-llms-vllm/references/optimization.md",
+    "runtime/skills/mlops/inference/serving-llms-vllm/references/quantization.md",
+    "runtime/skills/mlops/inference/serving-llms-vllm/references/server-deployment.md",
+    "runtime/skills/mlops/inference/serving-llms-vllm/references/troubleshooting.md",
+    "runtime/skills/mlops/models/DESCRIPTION.md",
+    "runtime/skills/mlops/models/audiocraft/SKILL.md",
+    "runtime/skills/mlops/models/audiocraft/references/advanced-usage.md",
+    "runtime/skills/mlops/models/audiocraft/references/troubleshooting.md",
+    "runtime/skills/mlops/models/segment-anything/SKILL.md",
+    "runtime/skills/mlops/models/segment-anything/references/advanced-usage.md",
+    "runtime/skills/mlops/models/segment-anything/references/troubleshooting.md",
+    "runtime/skills/note-taking/DESCRIPTION.md",
+    "runtime/skills/note-taking/obsidian/SKILL.md",
+    "runtime/skills/productivity/DESCRIPTION.md",
+    "runtime/skills/productivity/airtable/SKILL.md",
+    "runtime/skills/productivity/document-to-action-items/SKILL.md",
+    "runtime/skills/productivity/docx/LICENSE.txt",
+    "runtime/skills/productivity/docx/SKILL.md",
+    "runtime/skills/productivity/docx/scripts/__init__.py",
+    "runtime/skills/productivity/docx/scripts/accept_changes.py",
+    "runtime/skills/productivity/docx/scripts/comment.py",
+    "runtime/skills/productivity/docx/scripts/merge_runs.py",
+    "runtime/skills/productivity/docx/scripts/office/helpers/__init__.py",
+    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_chart.py",
+    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_slide.py",
+    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_theme.py",
+    "runtime/skills/productivity/docx/scripts/office/soffice.py",
+    "runtime/skills/productivity/docx/scripts/office/validate.py",
+    "runtime/skills/productivity/docx/scripts/office/validators/__init__.py",
+    "runtime/skills/productivity/docx/scripts/office/validators/base.py",
+    "runtime/skills/productivity/docx/scripts/office/validators/docx.py",
+    "runtime/skills/productivity/docx/scripts/office/validators/pptx.py",
+    "runtime/skills/productivity/docx/scripts/office/validators/redlining.py",
+    "runtime/skills/productivity/executive-briefings/SKILL.md",
+    "runtime/skills/productivity/executive-briefings/references/dataceler-daily-briefing.md",
+    "runtime/skills/productivity/google-workspace/SKILL.md",
+    "runtime/skills/productivity/google-workspace/references/gmail-search-syntax.md",
+    "runtime/skills/productivity/google-workspace/scripts/_hermes_home.py",
+    "runtime/skills/productivity/google-workspace/scripts/google_api.py",
+    "runtime/skills/productivity/google-workspace/scripts/gws_bridge.py",
+    "runtime/skills/productivity/google-workspace/scripts/setup.py",
+    "runtime/skills/productivity/maps/SKILL.md",
+    "runtime/skills/productivity/maps/scripts/maps_client.py",
+    "runtime/skills/productivity/nano-pdf/SKILL.md",
+    "runtime/skills/productivity/notion/SKILL.md",
+    "runtime/skills/productivity/notion/references/block-types.md",
+    "runtime/skills/productivity/ocr-and-documents/DESCRIPTION.md",
+    "runtime/skills/productivity/ocr-and-documents/SKILL.md",
+    "runtime/skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+    "runtime/skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+    "runtime/skills/productivity/pdf/LICENSE.txt",
+    "runtime/skills/productivity/pdf/SKILL.md",
+    "runtime/skills/productivity/pdf/forms.md",
+    "runtime/skills/productivity/pdf/reference.md",
+    "runtime/skills/productivity/pdf/scripts/check_bounding_boxes.py",
+    "runtime/skills/productivity/pdf/scripts/check_fillable_fields.py",
+    "runtime/skills/productivity/pdf/scripts/convert_pdf_to_images.py",
+    "runtime/skills/productivity/pdf/scripts/create_validation_image.py",
+    "runtime/skills/productivity/pdf/scripts/extract_form_field_info.py",
+    "runtime/skills/productivity/pdf/scripts/extract_form_structure.py",
+    "runtime/skills/productivity/pdf/scripts/fill_fillable_fields.py",
+    "runtime/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py",
+    "runtime/skills/productivity/petdex/SKILL.md",
+    "runtime/skills/productivity/powerpoint/LICENSE.txt",
+    "runtime/skills/productivity/powerpoint/SKILL.md",
+    "runtime/skills/productivity/powerpoint/scripts/__init__.py",
+    "runtime/skills/productivity/powerpoint/scripts/add_slide.py",
+    "runtime/skills/productivity/powerpoint/scripts/clean.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/helpers/__init__.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_chart.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_slide.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_theme.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/soffice.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validate.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validators/__init__.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validators/base.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validators/docx.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validators/pptx.py",
+    "runtime/skills/productivity/powerpoint/scripts/office/validators/redlining.py",
+    "runtime/skills/productivity/powerpoint/scripts/thumbnail.py",
+    "runtime/skills/productivity/teams-meeting-pipeline/SKILL.md",
+    "runtime/skills/productivity/xlsx/LICENSE.txt",
+    "runtime/skills/productivity/xlsx/SKILL.md",
+    "runtime/skills/productivity/xlsx/scripts/office/soffice.py",
+    "runtime/skills/productivity/xlsx/scripts/recalc.py",
+    "runtime/skills/research/DESCRIPTION.md",
+    "runtime/skills/research/arxiv/SKILL.md",
+    "runtime/skills/research/arxiv/scripts/search_arxiv.py",
+    "runtime/skills/research/blogwatcher/SKILL.md",
+    "runtime/skills/research/grounded-citations/SKILL.md",
+    "runtime/skills/research/grounded-citations/references/citation-formats.md",
+    "runtime/skills/research/grounded-citations/references/grounding-rationale.md",
+    "runtime/skills/research/grounded-citations/scripts/_hermes_home.py",
+    "runtime/skills/research/grounded-citations/scripts/sources.py",
+    "runtime/skills/research/llm-wiki/SKILL.md",
+    "runtime/skills/research/polymarket/SKILL.md",
+    "runtime/skills/research/polymarket/references/api-endpoints.md",
+    "runtime/skills/research/polymarket/scripts/polymarket.py",
+    "runtime/skills/research/research-paper-writing/SKILL.md",
+    "runtime/skills/research/research-paper-writing/references/autoreason-methodology.md",
+    "runtime/skills/research/research-paper-writing/references/checklists.md",
+    "runtime/skills/research/research-paper-writing/references/experiment-patterns.md",
+    "runtime/skills/research/research-paper-writing/references/human-evaluation.md",
+    "runtime/skills/research/research-paper-writing/references/paper-types.md",
+    "runtime/skills/research/research-paper-writing/references/reviewer-guidelines.md",
+    "runtime/skills/research/research-paper-writing/references/sources.md",
+    "runtime/skills/research/research-paper-writing/references/writing-guide.md",
+    "runtime/skills/research/research-paper-writing/templates/README.md",
+    "runtime/skills/research/research-paper-writing/templates/aaai2026/README.md",
+    "runtime/skills/research/research-paper-writing/templates/acl/README.md",
+    "runtime/skills/research/research-paper-writing/templates/acl/anthology.bib.txt",
+    "runtime/skills/research/research-paper-writing/templates/acl/formatting.md",
+    "runtime/skills/research/research-paper-writing/templates/colm2025/README.md",
+    "runtime/skills/security/1password/SKILL.md",
+    "runtime/skills/security/1password/references/cli-examples.md",
+    "runtime/skills/security/1password/references/get-started.md",
+    "runtime/skills/smart-home/DESCRIPTION.md",
+    "runtime/skills/smart-home/openhue/SKILL.md",
+    "runtime/skills/social-media/DESCRIPTION.md",
+    "runtime/skills/social-media/dataceler-e-joao-linkedin-infografico-editorial/SKILL.md",
+    "runtime/skills/social-media/dataceler-e-joao-linkedin-infografico-editorial/references/dataceler-editorial-profile.md",
+    "runtime/skills/social-media/dataceler-e-joao-linkedin-infografico-editorial/references/deterministic-infographic-rendering.md",
+    "runtime/skills/social-media/dataceler-e-joao-linkedin-infografico-editorial/references/portrait-comparison-matrix-rendering.md",
+    "runtime/skills/social-media/dataceler-instagram-carousel-editorial/SKILL.md",
+    "runtime/skills/social-media/dataceler-instagram-carousel-editorial/references/approved-pattern-v1.md",
+    "runtime/skills/social-media/dataceler-instagram-carousel-editorial/references/instagram-x-style-carousels.md",
+    "runtime/skills/social-media/dataceler-instagram-stories-editorial/SKILL.md",
+    "runtime/skills/social-media/dataceler-instagram-stories-editorial/references/strategy-v1.md",
+    "runtime/skills/social-media/dataceler-instagram-stories-editorial/templates/weekly-calendar.md",
+    "runtime/skills/social-media/dataceler-youtube-diagnostico/SKILL.md",
+    "runtime/skills/social-media/dataceler-youtube-diagnostico/references/channel-outlier-monitoring.md",
+    "runtime/skills/social-media/dataceler-youtube-estudo-diario/SKILL.md",
+    "runtime/skills/social-media/dataceler-youtube-evergreen-editorial/SKILL.md",
+    "runtime/skills/social-media/dataceler-youtube-evergreen-editorial/references/source-analysis.md",
+    "runtime/skills/social-media/dataceler-youtube-producao-semanal/SKILL.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-carrossel-twitter-editorial/SKILL.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-carrossel-twitter-editorial/references/canva-template-registry.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/SKILL.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/references/higgsfield-gpt-image-2.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/references/validated-two-column-comparison.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/references/visual-design-evidence.md",
+    "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/scripts/check_instagram_infographic.py",
+    "runtime/skills/social-media/xurl/SKILL.md",
+    "runtime/skills/software-development/dogfood/SKILL.md",
+    "runtime/skills/software-development/dogfood/references/issue-taxonomy.md",
+    "runtime/skills/software-development/dogfood/templates/dogfood-report-template.md",
+    "runtime/skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+    "runtime/skills/software-development/inspecting-hermes-desktop-dom/SKILL.md",
+    "runtime/skills/software-development/node-inspect-debugger/SKILL.md",
+    "runtime/skills/software-development/plan/SKILL.md",
+    "runtime/skills/software-development/python-debugpy/SKILL.md",
+    "runtime/skills/software-development/requesting-code-review/SKILL.md",
+    "runtime/skills/software-development/simplify-code/SKILL.md",
+    "runtime/skills/software-development/spike/SKILL.md",
+    "runtime/skills/software-development/systematic-debugging/SKILL.md",
+    "runtime/skills/software-development/test-driven-development/SKILL.md",
+    "runtime/skills/software-development/third-party-api-integrations/SKILL.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/bot-profile-media-sync.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/canva.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/coolify.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/google-oauth-youtube.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/granola.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/higgsfield.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/hostinger.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/nfse-soap-certificate-integration.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/vidiq.md",
+    "runtime/skills/yuanbao/SKILL.md"
+  ],
+  "skipped": [
+    {
+      "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+      "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/clock.mjs",
+      "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/templates/clock.mjs",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/plugin.js",
+      "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/templates/plugin.js",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/architecture-diagram/templates/template.html",
+      "destination": "runtime/skills/creative/architecture-diagram/templates/template.html",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/SKILL.md",
+      "destination": "runtime/skills/creative/comfyui/SKILL.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/references/rest-api.md",
+      "destination": "runtime/skills/creative/comfyui/references/rest-api.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/check_deps.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/check_deps.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/fetch_logs.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/fetch_logs.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/health_check.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/health_check.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/run_batch.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/run_batch.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/run_workflow.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/run_workflow.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/scripts/ws_monitor.py",
+      "destination": "runtime/skills/creative/comfyui/scripts/ws_monitor.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/comfyui/tests/pytest.ini",
+      "destination": "runtime/skills/creative/comfyui/tests/pytest.ini",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/humanizer/LICENSE",
+      "destination": "runtime/skills/creative/humanizer/LICENSE",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/p5js/scripts/export-frames.js",
+      "destination": "runtime/skills/creative/p5js/scripts/export-frames.js",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/p5js/templates/viewer.html",
+      "destination": "runtime/skills/creative/p5js/templates/viewer.html",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/pretext/templates/donut-orbit.html",
+      "destination": "runtime/skills/creative/pretext/templates/donut-orbit.html",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/creative/pretext/templates/hello-orb-flow.html",
+      "destination": "runtime/skills/creative/pretext/templates/hello-orb-flow.html",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/github/github-auth/scripts/git-credential-token.py",
+      "destination": "runtime/skills/github/github-auth/scripts/git-credential-token.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/hermes-desktop-plugins/templates/plugin.js",
+      "destination": "runtime/skills/hermes-desktop-plugins/templates/plugin.js",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/media/youtube-content/scripts/__pycache__/fetch_transcript.cpython-311.pyc",
+      "destination": "runtime/skills/media/youtube-content/scripts/__pycache__/fetch_transcript.cpython-311.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/media/youtube-content/scripts/__pycache__/run_transcript.cpython-311.pyc",
+      "destination": "runtime/skills/media/youtube-content/scripts/__pycache__/run_transcript.cpython-311.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/comments.xml",
+      "destination": "runtime/skills/productivity/docx/scripts/templates/comments.xml",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsExtended.xml",
+      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsExtended.xml",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsExtensible.xml",
+      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsExtensible.xml",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsIds.xml",
+      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsIds.xml",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/people.xml",
+      "destination": "runtime/skills/productivity/docx/scripts/templates/people.xml",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/google-workspace/scripts/__pycache__/_hermes_home.cpython-311.pyc",
+      "destination": "runtime/skills/productivity/google-workspace/scripts/__pycache__/_hermes_home.cpython-311.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/google-workspace/scripts/__pycache__/_hermes_home.cpython-312.pyc",
+      "destination": "runtime/skills/productivity/google-workspace/scripts/__pycache__/_hermes_home.cpython-312.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/google-workspace/scripts/__pycache__/setup.cpython-311.pyc",
+      "destination": "runtime/skills/productivity/google-workspace/scripts/__pycache__/setup.cpython-311.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/references/citation-workflow.md",
+      "destination": "runtime/skills/research/research-paper-writing/references/citation-workflow.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/aaai2026/aaai2026.bib",
+      "destination": "runtime/skills/research/research-paper-writing/templates/aaai2026/aaai2026.bib",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/aaai2026/aaai2026.bst",
+      "destination": "runtime/skills/research/research-paper-writing/templates/aaai2026/aaai2026.bst",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/aaai2026/aaai2026.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/aaai2026/aaai2026.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/acl/acl.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/acl/acl.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/acl/acl_latex.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/acl/acl_latex.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/acl/acl_lualatex.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/acl/acl_lualatex.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/acl/acl_natbib.bst",
+      "destination": "runtime/skills/research/research-paper-writing/templates/acl/acl_natbib.bst",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/acl/custom.bib",
+      "destination": "runtime/skills/research/research-paper-writing/templates/acl/custom.bib",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bib",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bib",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bst",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bst",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.pdf",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.pdf",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/fancyhdr.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/fancyhdr.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/math_commands.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/math_commands.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/colm2025/natbib.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/colm2025/natbib.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/fancyhdr.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/fancyhdr.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bib",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bib",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bst",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bst",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.pdf",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.pdf",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/math_commands.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/math_commands.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/iclr2026/natbib.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/iclr2026/natbib.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/algorithm.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/algorithm.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/algorithmic.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/algorithmic.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/example_paper.bib",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/example_paper.bib",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/example_paper.pdf",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/example_paper.pdf",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/example_paper.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/example_paper.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/fancyhdr.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/fancyhdr.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/icml2026.bst",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/icml2026.bst",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/icml2026.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/icml2026.sty",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/icml2026/icml_numpapers.pdf",
+      "destination": "runtime/skills/research/research-paper-writing/templates/icml2026/icml_numpapers.pdf",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/neurips2025/Makefile",
+      "destination": "runtime/skills/research/research-paper-writing/templates/neurips2025/Makefile",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/neurips2025/extra_pkgs.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/neurips2025/extra_pkgs.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/neurips2025/main.tex",
+      "destination": "runtime/skills/research/research-paper-writing/templates/neurips2025/main.tex",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
+      "destination": "runtime/skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
+      "reason": "not-allowlisted"
+    }
+  ]
+}

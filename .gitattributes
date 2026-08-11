@@ -1,0 +1,2 @@
+# Skills exportadas são espelhos do runtime; preservar o conteúdo original.
+runtime/skills/** -whitespace linguist-vendored

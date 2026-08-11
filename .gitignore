@@ -1,0 +1,36 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+auth.json
+credentials*
+tokens*
+cookies*
+*.pem
+*.key
+id_*
+*.p12
+*.pfx
+
+# Estado efêmero do Hermes
+state.db
+sessions/
+logs/
+cache/
+cron/output/
+cron/executions.db
+cron/notepad.db
+
+# Sistema e editor
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.tmp/
+tmp/
+
+# Exportação de trabalho temporária
+runtime/.staging/
+reports/snapshots/*.tar.gz
