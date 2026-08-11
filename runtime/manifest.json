@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-08-11T04:01:58.683005+00:00",
+  "exported_at_utc": "2026-08-11T04:06:11.081627+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -418,6 +418,8 @@
     "runtime/skills/security/1password/SKILL.md",
     "runtime/skills/security/1password/references/cli-examples.md",
     "runtime/skills/security/1password/references/get-started.md",
+    "runtime/skills/security/secure-agent-state-backups/SKILL.md",
+    "runtime/skills/security/secure-agent-state-backups/references/hermes-github-export.md",
     "runtime/skills/smart-home/DESCRIPTION.md",
     "runtime/skills/smart-home/openhue/SKILL.md",
     "runtime/skills/social-media/DESCRIPTION.md",
