@@ -66,6 +66,32 @@ Os demais traços permanecem `tentativo` até novos áudios confirmarem recorrê
 
 **Paráfrase curta:** João verifica conhecimento por aplicação prática e quer enxergar a tarefa atual conectada ao fluxo inteiro.
 
+## Amostra 004 — 2026-08-11
+
+**Contexto:** resposta espontânea às cinco perguntas diárias sobre implementação de IA em empresas.
+
+**Traços observados:**
+
+- Responde por pergunta e separa explicitamente os temas antes de opinar. `provável`
+- Rejeita respostas abrangentes quando faltam processo, métricas e contexto de operação. `confirmado`
+- Pede exemplos mais concretos quando a formulação da pergunta não é suficiente para uma resposta responsável. `provável`
+- Admite sem hesitação quando ainda não tem uma resposta ou conclusão. `provável`
+
+**Paráfrase curta:** João transforma perguntas amplas em condições de decisão: processo, indicadores e contexto. Quando faltam elementos, prefere pedir exemplos ou reconhecer a dúvida a preencher a lacuna com uma resposta genérica.
+
+## Amostra 005 — 2026-08-11
+
+**Contexto:** definição falada das metas inegociáveis da Dataceler até dezembro de 2026, cobrindo entregas, comercial, portfólio, audiência e workshop.
+
+**Traços observados:**
+
+- Define objetivos por resultado concreto, prioridade e consequência operacional, não como lista abstrata de intenções. `provável`
+- Separa frentes externas, internas, comerciais e de audiência para organizar execução. `tentativo`
+- Identifica dependências pessoais imediatas e pede um mecanismo de acompanhamento com prazo específico. `provável`
+- Faz contas de conversão e audiência como hipótese de planejamento, abrindo espaço para revisão da meta. `tentativo`
+
+**Paráfrase curta:** João formula estratégia conectando entregas atuais, provas comerciais e metas de receita. Ele quer que ambições virem dependências, responsáveis e próxima ação.
+
 ## Próxima atualização
 
 No próximo áudio:

@@ -22,15 +22,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 13
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-31T19:44:28.344383+00:00",
-      "next_run_at": "2026-08-11T12:00:00+00:00",
-      "last_run_at": "2026-08-10T12:01:01.924102+00:00",
+      "next_run_at": "2026-08-12T12:00:00+00:00",
+      "last_run_at": "2026-08-11T12:00:26.771106+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -71,15 +71,15 @@
       "schedule_display": "5 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 9
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:44:08.981183+00:00",
-      "next_run_at": "2026-08-11T12:05:00+00:00",
-      "last_run_at": "2026-08-10T13:21:34.300530+00:00",
+      "next_run_at": "2026-08-12T12:05:00+00:00",
+      "last_run_at": "2026-08-11T12:05:21.364527+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 9
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-08-11T12:03:00+00:00",
-      "last_run_at": "2026-08-10T13:22:51.388367+00:00",
+      "next_run_at": "2026-08-12T12:03:00+00:00",
+      "last_run_at": "2026-08-11T12:03:29.778379+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -169,15 +169,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 7
+        "completed": 8
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-08-11T17:00:00+00:00",
-      "last_run_at": "2026-08-10T17:01:01.030107+00:00",
+      "next_run_at": "2026-08-12T17:00:00+00:00",
+      "last_run_at": "2026-08-11T17:00:19.816684+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -218,16 +218,16 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-08-11T12:10:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-08-12T12:10:00+00:00",
+      "last_run_at": "2026-08-11T12:10:05.441824+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
@@ -239,7 +239,8 @@
         "user_id": "984255944"
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "fire_claim": null
     },
     {
       "id": "163251c751f5",
@@ -266,14 +267,63 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-08-12T06:15:00+00:00",
+      "next_run_at": "2026-08-13T06:15:00+00:00",
+      "last_run_at": "2026-08-11T06:16:03.882012+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "Jo\u00e3o Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "ac798c42cdc3",
+      "name": "A\u00e7\u00e3o comercial \u2014 cl\u00ednica de radiologia",
+      "prompt": "Lembrete priorit\u00e1rio: hoje de manh\u00e3, falar com seu amigo para pedir o contato do pai dele, dono de uma cl\u00ednica de radiologia em Bras\u00edlia, e j\u00e1 buscar agendar uma reuni\u00e3o. Objetivo: destravar a oportunidade e a demo de cl\u00ednica para medicina.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openai-codex",
+      "model_snapshot": "gpt-5.6-terra",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-12T09:00:00-03:00",
+        "display": "once at 2026-08-12 09:00"
+      },
+      "schedule_display": "once at 2026-08-12 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-12T02:51:18.931471+00:00",
+      "next_run_at": "2026-08-12T09:00:00-03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -290,5 +340,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-11T06:15:59.004249+00:00"
+  "updated_at": "2026-08-12T06:15:15.102343+00:00"
 }
