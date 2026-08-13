@@ -92,6 +92,19 @@ Os demais traços permanecem `tentativo` até novos áudios confirmarem recorrê
 
 **Paráfrase curta:** João formula estratégia conectando entregas atuais, provas comerciais e metas de receita. Ele quer que ambições virem dependências, responsáveis e próxima ação.
 
+## Amostra 006 — 2026-08-11
+
+**Contexto:** resposta a cinco perguntas sobre autonomia de IA, responsabilidade, treinamento, contexto e objetivo comercial.
+
+**Traços observados:**
+
+- Define autonomia como ciclo de melhoria com humano delegando, IA executando e humano revisando. `tentativo`
+- Pede exemplos situacionais quando a pergunta abstrata não oferece contexto suficiente para uma decisão. `confirmado`
+- Distingue questões operacionais de questões que exigem análise jurídica e técnica antes de assumir uma posição. `provável`
+- Conecta prioridades de IA ao resultado comercial final: receita e capacidade de vender o serviço. `provável`
+
+**Paráfrase curta:** João responde melhor a cenários com decisão, restrição e consequência. Para ele, autonomia útil continua dentro de um loop humano de revisão e otimização; questões jurídicas ou técnicas sem base suficiente permanecem em aberto.
+
 ## Próxima atualização
 
 No próximo áudio:

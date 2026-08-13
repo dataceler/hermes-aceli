@@ -22,15 +22,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 13
+        "completed": 14
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-31T19:44:28.344383+00:00",
-      "next_run_at": "2026-08-12T12:00:00+00:00",
-      "last_run_at": "2026-08-11T12:00:26.771106+00:00",
+      "next_run_at": "2026-08-13T12:00:00+00:00",
+      "last_run_at": "2026-08-12T12:00:34.822449+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -52,7 +52,7 @@
     {
       "id": "e125a5b01563",
       "name": "Aceli \u2014 5 perguntas di\u00e1rias sobre IA",
-      "prompt": "Todos os dias, produza uma mensagem destinada a Jo\u00e3o Cordeiro com exatamente cinco perguntas abertas, reflexivas e profundas sobre intelig\u00eancia artificial.\n\nObjetivos:\n1. Compreender melhor a forma de racioc\u00ednio, comunica\u00e7\u00e3o, linguagem, valores e ponto de vista de Jo\u00e3o Cordeiro.\n2. Estimular respostas que possam, posteriormente e com aprova\u00e7\u00e3o, servir como mat\u00e9ria-prima para conte\u00fados da Dataceler e do perfil @joaocordeiro.ia.\n\nAntes de escrever:\n- Use `web_search` para identificar acontecimentos, debates, lan\u00e7amentos, mudan\u00e7as regulat\u00f3rias, aplica\u00e7\u00f5es empresariais ou consequ\u00eancias relevantes de IA que estejam em alta, priorizando fontes prim\u00e1rias e confi\u00e1veis.\n- Use `session_search` quando dispon\u00edvel para consultar entregas anteriores desta rotina e reduzir repeti\u00e7\u00e3o de temas e formula\u00e7\u00f5es.\n- N\u00e3o invente tend\u00eancias, fatos, n\u00fameros ou consensos.\n\nRequisitos obrigat\u00f3rios:\n- Escreva em portugu\u00eas do Brasil.\n- Entregue exatamente cinco perguntas, numeradas de 1 a 5.\n- Cada item deve ter uma frase curta de contexto e uma pergunta aberta.\n- Priorize temas atuais, mas use uma pergunta evergreen quando ela melhorar a profundidade ou conectar uma tend\u00eancia a consequ\u00eancias duradouras.\n- Fa\u00e7a perguntas que exijam julgamento, compara\u00e7\u00e3o, defini\u00e7\u00e3o de limites, an\u00e1lise de consequ\u00eancias, escolha entre alternativas ou formula\u00e7\u00e3o de um princ\u00edpio.\n- Explore de forma variada: estrat\u00e9gia empresarial, trabalho, produtividade, educa\u00e7\u00e3o, \u00e9tica, governan\u00e7a, riscos, ado\u00e7\u00e3o, retorno financeiro, sociedade, produtos, atendimento e opera\u00e7\u00e3o.\n- Quando uma pergunta depender de um fato atual, inclua um link curto para a fonte que motivou o contexto.\n- N\u00e3o fa\u00e7a perguntas de trivia, defini\u00e7\u00f5es b\u00e1sicas, respostas de sim/n\u00e3o ou perguntas gen\u00e9ricas como \u201co que voc\u00ea acha da IA?\u201d.\n- N\u00e3o responda \u00e0s perguntas, n\u00e3o escreva uma an\u00e1lise final e n\u00e3o transforme a mensagem em artigo.\n- N\u00e3o pressione Jo\u00e3o a produzir conte\u00fado; apenas informe em uma frase final que ele pode responder naturalmente e que boas respostas poder\u00e3o ser reaproveitadas depois, mediante revis\u00e3o.\n- Mantenha tom executivo, curioso e intelectualmente exigente, sem linguagem acad\u00eamica desnecess\u00e1ria.\n\nFormato:\n**5 perguntas da Aceli sobre IA \u2014 [data]**\n\n1. **Contexto:** ...\n   **Pergunta:** ...\n\nRepita at\u00e9 o item 5 e encerre com uma \u00fanica frase curta convidando Jo\u00e3o a responder com liberdade.\n\nA resposta final deve conter apenas a mensagem destinada a Jo\u00e3o, sem coment\u00e1rios sobre o agendador, ferramentas ou processo interno.",
+      "prompt": "Todos os dias, produza uma mensagem destinada a Jo\u00e3o Cordeiro com exatamente cinco perguntas abertas, profundas e **contextualizadas** sobre intelig\u00eancia artificial.\n\nObjetivos:\n1. Compreender melhor a forma de racioc\u00ednio, comunica\u00e7\u00e3o, linguagem, valores e ponto de vista de Jo\u00e3o Cordeiro.\n2. Gerar mat\u00e9ria-prima potencial para conte\u00fados da Dataceler e do perfil @joaocordeiro.ia, sempre mediante revis\u00e3o e aprova\u00e7\u00e3o.\n\nAntes de escrever:\n- Use fontes atuais e verific\u00e1veis quando um fato recente for relevante; se a busca externa estiver indispon\u00edvel, use temas evergreen e n\u00e3o invente fatos, n\u00fameros ou tend\u00eancias.\n- Use session_search quando dispon\u00edvel para reduzir repeti\u00e7\u00e3o de temas e formula\u00e7\u00f5es.\n\nRequisitos obrigat\u00f3rios:\n- Escreva em portugu\u00eas do Brasil.\n- Entregue exatamente cinco itens, numerados de 1 a 5.\n- Cada pergunta deve obrigatoriamente conter: **Cen\u00e1rio**, **Decis\u00e3o**, **Restri\u00e7\u00e3o** e **Pergunta**.\n- O cen\u00e1rio deve ser concreto: empresa, fun\u00e7\u00e3o, processo, cliente, equipe ou situa\u00e7\u00e3o operacional plaus\u00edvel. Evite perguntas abstratas sobre \u201cas empresas\u201d ou \u201ca sociedade\u201d sem caso espec\u00edfico.\n- A decis\u00e3o deve exigir escolha, prioridade, limite, crit\u00e9rio ou consequ\u00eancia pr\u00e1tica.\n- A restri\u00e7\u00e3o deve trazer ao menos um elemento real: prazo, or\u00e7amento, risco, aprova\u00e7\u00e3o humana, dado sens\u00edvel, responsabilidade jur\u00eddica, impacto no cliente, capacidade da equipe ou m\u00e9trica.\n- D\u00ea informa\u00e7\u00e3o suficiente para Jo\u00e3o responder sem precisar pedir exemplos adicionais. N\u00e3o esconda o contexto na pergunta.\n- Varie entre estrat\u00e9gia empresarial, trabalho, produtividade, educa\u00e7\u00e3o, \u00e9tica, governan\u00e7a, riscos, ado\u00e7\u00e3o, retorno financeiro, atendimento e opera\u00e7\u00e3o.\n- Quando a pergunta depender de fato atual, inclua link curto para a fonte que motivou o cen\u00e1rio.\n- N\u00e3o fa\u00e7a trivia, defini\u00e7\u00f5es b\u00e1sicas, perguntas de sim/n\u00e3o nem perguntas gen\u00e9ricas como \u201co que voc\u00ea acha da IA?\u201d.\n- N\u00e3o responda \u00e0s perguntas nem produza an\u00e1lise final.\n- Mantenha tom executivo, curioso e intelectualmente exigente, sem academicismo.\n\nFormato:\n**5 perguntas da Aceli sobre IA \u2014 [data]**\n\n1. **Cen\u00e1rio:** ...\n   **Decis\u00e3o:** ...\n   **Restri\u00e7\u00e3o:** ...\n   **Pergunta:** ...\n\nRepita at\u00e9 o item 5 e encerre com uma frase curta: Jo\u00e3o pode responder com liberdade; respostas poder\u00e3o ser reaproveitadas depois, mediante revis\u00e3o.\n\nA resposta final deve conter somente a mensagem destinada a Jo\u00e3o, sem coment\u00e1rios sobre agendador, ferramentas ou processo interno.",
       "skills": [],
       "skill": null,
       "model": "gpt-5.6-terra",
@@ -71,15 +71,15 @@
       "schedule_display": "5 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 9
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:44:08.981183+00:00",
-      "next_run_at": "2026-08-12T12:05:00+00:00",
-      "last_run_at": "2026-08-11T12:05:21.364527+00:00",
+      "next_run_at": "2026-08-13T12:05:00+00:00",
+      "last_run_at": "2026-08-12T12:05:38.126827+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 9
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-08-12T12:03:00+00:00",
-      "last_run_at": "2026-08-11T12:03:29.778379+00:00",
+      "next_run_at": "2026-08-13T12:03:00+00:00",
+      "last_run_at": "2026-08-12T12:03:49.534746+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -169,15 +169,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-08-12T17:00:00+00:00",
-      "last_run_at": "2026-08-11T17:00:19.816684+00:00",
+      "next_run_at": "2026-08-13T17:00:00+00:00",
+      "last_run_at": "2026-08-12T21:35:09.246984+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -218,15 +218,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-08-12T12:10:00+00:00",
-      "last_run_at": "2026-08-11T12:10:05.441824+00:00",
+      "next_run_at": "2026-08-13T12:10:00+00:00",
+      "last_run_at": "2026-08-12T12:10:21.525964+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -267,15 +267,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-08-13T06:15:00+00:00",
-      "last_run_at": "2026-08-11T06:16:03.882012+00:00",
+      "next_run_at": "2026-08-14T06:15:00+00:00",
+      "last_run_at": "2026-08-12T06:15:20.351901+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -316,16 +316,16 @@
       "schedule_display": "once at 2026-08-12 09:00",
       "repeat": {
         "times": 1,
-        "completed": 0
+        "completed": 1
       },
-      "enabled": true,
-      "state": "scheduled",
+      "enabled": false,
+      "state": "completed",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-12T02:51:18.931471+00:00",
-      "next_run_at": "2026-08-12T09:00:00-03:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": null,
+      "last_run_at": "2026-08-12T12:00:29.059034+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
@@ -337,8 +337,10 @@
         "user_id": "984255944"
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-12T06:15:15.102343+00:00"
+  "updated_at": "2026-08-13T06:15:28.264759+00:00"
 }
