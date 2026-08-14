@@ -105,6 +105,18 @@ Os demais traços permanecem `tentativo` até novos áudios confirmarem recorrê
 
 **Paráfrase curta:** João responde melhor a cenários com decisão, restrição e consequência. Para ele, autonomia útil continua dentro de um loop humano de revisão e otimização; questões jurídicas ou técnicas sem base suficiente permanecem em aberto.
 
+## Amostra 007 — 2026-08-12
+
+**Contexto:** continuação parcial da resposta à pergunta sobre autonomia em conversas que podem conter dados de saúde.
+
+**Traços observados:**
+
+- Ao avaliar autonomia, introduz imediatamente a natureza dos dados e o risco de vazamento como variável de decisão. `provável`
+- Diferencia o padrão tecnológico conforme o contexto: para possíveis dados de saúde, a preferência declarada é inferência por LLM local. `tentativo`
+- Não trata a escolha técnica como abstração; relaciona-a diretamente à mitigação de risco operacional. `provável`
+
+**Paráfrase curta:** João condiciona a autonomia e a arquitetura de IA ao tipo de dado envolvido. Em saúde, prefere processamento local para reduzir exposição, sem apresentar isso como solução absoluta nem substituir o loop de revisão humana.
+
 ## Próxima atualização
 
 No próximo áudio:
