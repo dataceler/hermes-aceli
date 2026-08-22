@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-08-21T06:15:51.669233+00:00",
+  "exported_at_utc": "2026-08-22T06:15:06.487653+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -461,6 +461,7 @@
     "runtime/skills/software-development/systematic-debugging/SKILL.md",
     "runtime/skills/software-development/test-driven-development/SKILL.md",
     "runtime/skills/software-development/third-party-api-integrations/SKILL.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/banco-inter-banking-readonly.md",
     "runtime/skills/software-development/third-party-api-integrations/references/bot-profile-media-sync.md",
     "runtime/skills/software-development/third-party-api-integrations/references/canva.md",
     "runtime/skills/software-development/third-party-api-integrations/references/coolify.md",

@@ -90,5 +90,6 @@ Use this skill when a user asks to connect Hermes to an external SaaS, infrastru
 - vidIQ remote MCP, headless OAuth, least-privilege tool selection, credit-aware verification: `references/vidiq.md`
 - Municipal NFS-e SOAP integration with ICP-Brasil A1/A3 certificates, XML signatures, homologation and fiscal confirmation gates: `references/nfse-soap-certificate-integration.md`
 - Safe cross-platform bot avatar/name synchronization and destination-CDN verification: `references/bot-profile-media-sync.md`
+- Banco Inter Banking read-only via mTLS, including validated token/balance scopes, 90-day statement windows, aggregate dashboard hygiene and revocation verification: `references/banco-inter-banking-readonly.md`
 
 Load the relevant reference before configuring or operating that provider or workflow.

@@ -1,6 +1,6 @@
 User prefers least-privilege Google access: Calendar, Drive, Sheets and Docs only; exclude Gmail and Contacts unless explicitly requested.
 §
-User wants Aceli to provide CFO-level financial visibility and decision support for Dataceler, initially with controlled, read-only access.
+User wants read-only Banco Inter access for CFO visibility: saldo/extrato only, on explicit request; no financial movements without approval.
 §
 Prefere briefings da Dataceler curtos, focados nos objetivos do negócio e sempre com um “so what?” explícito: impacto, relevância e ação recomendada; evitar excesso de notícias e contexto sem aplicação prática.
 §
