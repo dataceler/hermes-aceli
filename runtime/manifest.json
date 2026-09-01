@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-08-31T06:15:24.763960+00:00",
+  "exported_at_utc": "2026-09-01T06:15:39.176771+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -464,6 +464,7 @@
     "runtime/skills/software-development/third-party-api-integrations/references/banco-inter-banking-readonly.md",
     "runtime/skills/software-development/third-party-api-integrations/references/bot-profile-media-sync.md",
     "runtime/skills/software-development/third-party-api-integrations/references/canva.md",
+    "runtime/skills/software-development/third-party-api-integrations/references/composio-integration.md",
     "runtime/skills/software-development/third-party-api-integrations/references/coolify.md",
     "runtime/skills/software-development/third-party-api-integrations/references/google-oauth-youtube.md",
     "runtime/skills/software-development/third-party-api-integrations/references/granola.md",
