@@ -2,7 +2,7 @@ User prefers least-privilege Google access: Calendar, Drive, Sheets and Docs onl
 §
 User wants read-only Banco Inter access for CFO visibility: saldo/extrato only, on explicit request; no financial movements without approval.
 §
-Prefere briefings da Dataceler curtos, focados nos objetivos do negócio e sempre com um “so what?” explícito: impacto, relevância e ação recomendada; evitar excesso de notícias e contexto sem aplicação prática.
+Prefere briefings Dataceler curtos, com “so what?” (impacto, relevância e ação); quer que Aceli proponha usos operacionais concretos sem depender de prompts ou ideias dele.
 §
 Dataceler YouTube: deep evergreen AI plus selective trends, aimed at business owners and non-technical learners.
 §
