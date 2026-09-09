@@ -22,17 +22,17 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 40
+        "completed": 41
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-31T19:44:28.344383+00:00",
-      "next_run_at": "2026-09-08T12:00:00+00:00",
-      "last_run_at": "2026-09-07T12:00:37.949168+00:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: HTTP 429: The usage limit has been reached",
+      "next_run_at": "2026-09-09T12:00:00+00:00",
+      "last_run_at": "2026-09-08T12:00:55.906287+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin,telegram:5372007663",
       "origin": {
@@ -120,17 +120,17 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 36
+        "completed": 37
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-09-08T12:03:00+00:00",
-      "last_run_at": "2026-09-07T12:03:32.940873+00:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: HTTP 429: The usage limit has been reached",
+      "next_run_at": "2026-09-09T12:03:00+00:00",
+      "last_run_at": "2026-09-08T12:03:59.899049+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
@@ -169,15 +169,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 36
+        "completed": 37
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-09-08T17:00:00+00:00",
-      "last_run_at": "2026-09-07T17:00:40.805084+00:00",
+      "next_run_at": "2026-09-09T17:00:00+00:00",
+      "last_run_at": "2026-09-08T17:00:55.683718+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -218,15 +218,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 28
+        "completed": 29
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-09-08T12:10:00+00:00",
-      "last_run_at": "2026-09-07T12:10:25.363361+00:00",
+      "next_run_at": "2026-09-09T12:10:00+00:00",
+      "last_run_at": "2026-09-08T12:10:41.422657+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -267,15 +267,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 28
+        "completed": 29
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-09-09T06:15:00+00:00",
-      "last_run_at": "2026-09-07T06:15:24.267751+00:00",
+      "next_run_at": "2026-09-10T06:15:00+00:00",
+      "last_run_at": "2026-09-08T06:15:40.242506+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -292,5 +292,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-09-08T06:15:34.000847+00:00"
+  "updated_at": "2026-09-09T06:15:50.335266+00:00"
 }
