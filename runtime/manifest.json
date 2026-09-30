@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-09-29T06:16:01.042196+00:00",
+  "exported_at_utc": "2026-09-30T06:15:31.215712+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -28,7 +28,6 @@
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/petdex.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/portal-auth-for-third-party-apps.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/project-context-files.md",
-    "runtime/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/security-privacy.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/slash-commands.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/themes.md",
@@ -252,12 +251,13 @@
     "runtime/skills/creative/voz-do-joao/references/voice-evidence.md",
     "runtime/skills/data-science/DESCRIPTION.md",
     "runtime/skills/data-science/jupyter-live-kernel/SKILL.md",
+    "runtime/skills/devops/sdlc-review/SKILL.md",
     "runtime/skills/email/DESCRIPTION.md",
+    "runtime/skills/email/email-inbox-triage/SKILL.md",
     "runtime/skills/email/himalaya/SKILL.md",
     "runtime/skills/email/himalaya/references/configuration.md",
     "runtime/skills/email/himalaya/references/message-composition.md",
     "runtime/skills/github/DESCRIPTION.md",
-    "runtime/skills/github/codebase-inspection/SKILL.md",
     "runtime/skills/github/github-auth/SKILL.md",
     "runtime/skills/github/github-auth/scripts/gh-env.sh",
     "runtime/skills/github/github-code-review/SKILL.md",
@@ -317,24 +317,29 @@
     "runtime/skills/note-taking/obsidian/SKILL.md",
     "runtime/skills/productivity/DESCRIPTION.md",
     "runtime/skills/productivity/airtable/SKILL.md",
+    "runtime/skills/productivity/box/SKILL.md",
+    "runtime/skills/productivity/box/references/bulk-operations.md",
+    "runtime/skills/productivity/box/references/cli-guide.md",
+    "runtime/skills/productivity/box/references/content-workflows.md",
+    "runtime/skills/productivity/box/references/hubs.md",
+    "runtime/skills/productivity/box/references/oauth-setup.md",
+    "runtime/skills/productivity/box/references/rest-api.md",
+    "runtime/skills/productivity/box/references/sdk-development.md",
+    "runtime/skills/productivity/box/references/search-and-ai.md",
+    "runtime/skills/productivity/box/references/troubleshooting.md",
+    "runtime/skills/productivity/box/references/webhooks-and-events.md",
     "runtime/skills/productivity/document-to-action-items/SKILL.md",
-    "runtime/skills/productivity/docx/LICENSE.txt",
     "runtime/skills/productivity/docx/SKILL.md",
-    "runtime/skills/productivity/docx/scripts/__init__.py",
-    "runtime/skills/productivity/docx/scripts/accept_changes.py",
-    "runtime/skills/productivity/docx/scripts/comment.py",
-    "runtime/skills/productivity/docx/scripts/merge_runs.py",
-    "runtime/skills/productivity/docx/scripts/office/helpers/__init__.py",
-    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_chart.py",
-    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_slide.py",
-    "runtime/skills/productivity/docx/scripts/office/helpers/pptx_theme.py",
-    "runtime/skills/productivity/docx/scripts/office/soffice.py",
-    "runtime/skills/productivity/docx/scripts/office/validate.py",
-    "runtime/skills/productivity/docx/scripts/office/validators/__init__.py",
-    "runtime/skills/productivity/docx/scripts/office/validators/base.py",
-    "runtime/skills/productivity/docx/scripts/office/validators/docx.py",
-    "runtime/skills/productivity/docx/scripts/office/validators/pptx.py",
-    "runtime/skills/productivity/docx/scripts/office/validators/redlining.py",
+    "runtime/skills/productivity/docx/references/revisions-and-comments.md",
+    "runtime/skills/productivity/docx/scripts/docx_comments.py",
+    "runtime/skills/productivity/docx/scripts/docx_common.py",
+    "runtime/skills/productivity/docx/scripts/docx_create.py",
+    "runtime/skills/productivity/docx/scripts/docx_edit.py",
+    "runtime/skills/productivity/docx/scripts/docx_read.py",
+    "runtime/skills/productivity/docx/scripts/docx_revisions.py",
+    "runtime/skills/productivity/docx/scripts/docx_template.py",
+    "runtime/skills/productivity/docx/scripts/docx_validate.py",
+    "runtime/skills/productivity/docx/tests/test_docx_skill.py",
     "runtime/skills/productivity/executive-briefings/SKILL.md",
     "runtime/skills/productivity/executive-briefings/references/dataceler-daily-briefing.md",
     "runtime/skills/productivity/google-workspace/SKILL.md",
@@ -345,6 +350,7 @@
     "runtime/skills/productivity/google-workspace/scripts/setup.py",
     "runtime/skills/productivity/maps/SKILL.md",
     "runtime/skills/productivity/maps/scripts/maps_client.py",
+    "runtime/skills/productivity/meeting-action-items/SKILL.md",
     "runtime/skills/productivity/nano-pdf/SKILL.md",
     "runtime/skills/productivity/notion/SKILL.md",
     "runtime/skills/productivity/notion/references/block-types.md",
@@ -352,45 +358,50 @@
     "runtime/skills/productivity/ocr-and-documents/SKILL.md",
     "runtime/skills/productivity/ocr-and-documents/scripts/extract_marker.py",
     "runtime/skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
-    "runtime/skills/productivity/pdf/LICENSE.txt",
     "runtime/skills/productivity/pdf/SKILL.md",
-    "runtime/skills/productivity/pdf/forms.md",
-    "runtime/skills/productivity/pdf/reference.md",
-    "runtime/skills/productivity/pdf/scripts/check_bounding_boxes.py",
-    "runtime/skills/productivity/pdf/scripts/check_fillable_fields.py",
-    "runtime/skills/productivity/pdf/scripts/convert_pdf_to_images.py",
-    "runtime/skills/productivity/pdf/scripts/create_validation_image.py",
-    "runtime/skills/productivity/pdf/scripts/extract_form_field_info.py",
-    "runtime/skills/productivity/pdf/scripts/extract_form_structure.py",
-    "runtime/skills/productivity/pdf/scripts/fill_fillable_fields.py",
-    "runtime/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py",
+    "runtime/skills/productivity/pdf/references/forms.md",
+    "runtime/skills/productivity/pdf/references/nano-pdf-editing.md",
+    "runtime/skills/productivity/pdf/references/ocr-extraction.md",
+    "runtime/skills/productivity/pdf/scripts/_raster.py",
+    "runtime/skills/productivity/pdf/scripts/extract_marker.py",
+    "runtime/skills/productivity/pdf/scripts/extract_pymupdf.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_create.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_fill_form.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_form_layout.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_make_form.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_merge.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_meta.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_read.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_secure.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_split.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_stamp.py",
+    "runtime/skills/productivity/pdf/scripts/pdf_watermark.py",
+    "runtime/skills/productivity/pdf/tests/test_pdf_skill.py",
     "runtime/skills/productivity/petdex/SKILL.md",
-    "runtime/skills/productivity/powerpoint/LICENSE.txt",
     "runtime/skills/productivity/powerpoint/SKILL.md",
-    "runtime/skills/productivity/powerpoint/scripts/__init__.py",
-    "runtime/skills/productivity/powerpoint/scripts/add_slide.py",
-    "runtime/skills/productivity/powerpoint/scripts/clean.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/helpers/__init__.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_chart.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_slide.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/helpers/pptx_theme.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/soffice.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validate.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validators/__init__.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validators/base.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validators/docx.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validators/pptx.py",
-    "runtime/skills/productivity/powerpoint/scripts/office/validators/redlining.py",
-    "runtime/skills/productivity/powerpoint/scripts/thumbnail.py",
+    "runtime/skills/productivity/powerpoint/scripts/pptx_create.py",
+    "runtime/skills/productivity/powerpoint/scripts/pptx_edit.py",
+    "runtime/skills/productivity/powerpoint/scripts/pptx_from_template.py",
+    "runtime/skills/productivity/powerpoint/scripts/pptx_read.py",
+    "runtime/skills/productivity/powerpoint/scripts/pptx_render.py",
+    "runtime/skills/productivity/powerpoint/tests/test_powerpoint_skill.py",
+    "runtime/skills/productivity/product-price-monitor/SKILL.md",
     "runtime/skills/productivity/teams-meeting-pipeline/SKILL.md",
-    "runtime/skills/productivity/xlsx/LICENSE.txt",
+    "runtime/skills/productivity/weekly-review-planning/SKILL.md",
     "runtime/skills/productivity/xlsx/SKILL.md",
-    "runtime/skills/productivity/xlsx/scripts/office/soffice.py",
-    "runtime/skills/productivity/xlsx/scripts/recalc.py",
+    "runtime/skills/productivity/xlsx/references/restructuring.md",
+    "runtime/skills/productivity/xlsx/scripts/csv_to_xlsx.py",
+    "runtime/skills/productivity/xlsx/scripts/xlsx_create.py",
+    "runtime/skills/productivity/xlsx/scripts/xlsx_read.py",
+    "runtime/skills/productivity/xlsx/scripts/xlsx_recalc.py",
+    "runtime/skills/productivity/xlsx/scripts/xlsx_restructure.py",
+    "runtime/skills/productivity/xlsx/scripts/xlsx_to_csv.py",
+    "runtime/skills/productivity/xlsx/tests/test_xlsx_skill.py",
     "runtime/skills/research/DESCRIPTION.md",
     "runtime/skills/research/arxiv/SKILL.md",
     "runtime/skills/research/arxiv/scripts/search_arxiv.py",
     "runtime/skills/research/blogwatcher/SKILL.md",
+    "runtime/skills/research/competitor-news-monitor/SKILL.md",
     "runtime/skills/research/grounded-citations/SKILL.md",
     "runtime/skills/research/grounded-citations/references/citation-formats.md",
     "runtime/skills/research/grounded-citations/references/grounding-rationale.md",
@@ -447,9 +458,26 @@
     "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/references/visual-design-evidence.md",
     "runtime/skills/social-media/joao-dataceler-instagram-infografico-editorial/scripts/check_instagram_infographic.py",
     "runtime/skills/social-media/xurl/SKILL.md",
+    "runtime/skills/software-development/codebase-inspection/SKILL.md",
     "runtime/skills/software-development/dogfood/SKILL.md",
     "runtime/skills/software-development/dogfood/references/issue-taxonomy.md",
     "runtime/skills/software-development/dogfood/templates/dogfood-report-template.md",
+    "runtime/skills/software-development/github/SKILL.md",
+    "runtime/skills/software-development/github/references/auth.md",
+    "runtime/skills/software-development/github/references/ci-troubleshooting.md",
+    "runtime/skills/software-development/github/references/code-review.md",
+    "runtime/skills/software-development/github/references/conventional-commits.md",
+    "runtime/skills/software-development/github/references/github-api-cheatsheet.md",
+    "runtime/skills/software-development/github/references/issue-to-pr.md",
+    "runtime/skills/software-development/github/references/issues.md",
+    "runtime/skills/software-development/github/references/pr-workflow.md",
+    "runtime/skills/software-development/github/references/repo-management.md",
+    "runtime/skills/software-development/github/references/review-output-template.md",
+    "runtime/skills/software-development/github/scripts/gh-env.sh",
+    "runtime/skills/software-development/github/templates/bug-report.md",
+    "runtime/skills/software-development/github/templates/feature-request.md",
+    "runtime/skills/software-development/github/templates/pr-body-bugfix.md",
+    "runtime/skills/software-development/github/templates/pr-body-feature.md",
     "runtime/skills/software-development/hermes-agent-skill-authoring/SKILL.md",
     "runtime/skills/software-development/inspecting-hermes-desktop-dom/SKILL.md",
     "runtime/skills/software-development/node-inspect-debugger/SKILL.md",
@@ -472,12 +500,20 @@
     "runtime/skills/software-development/third-party-api-integrations/references/hostinger.md",
     "runtime/skills/software-development/third-party-api-integrations/references/nfse-soap-certificate-integration.md",
     "runtime/skills/software-development/third-party-api-integrations/references/vidiq.md",
+    "runtime/skills/web/DESCRIPTION.md",
+    "runtime/skills/web/blocked-page-recovery/SKILL.md",
+    "runtime/skills/web/blocked-page-recovery/scripts/recover_page.py",
     "runtime/skills/yuanbao/SKILL.md"
   ],
   "skipped": [
     {
       "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
       "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
+      "destination": "runtime/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
       "reason": "secret-pattern"
     },
     {
@@ -596,223 +632,8 @@
       "reason": "not-allowlisted"
     },
     {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "destination": "runtime/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/comments.xml",
-      "destination": "runtime/skills/productivity/docx/scripts/templates/comments.xml",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsExtended.xml",
-      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsExtended.xml",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsExtensible.xml",
-      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsExtensible.xml",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/commentsIds.xml",
-      "destination": "runtime/skills/productivity/docx/scripts/templates/commentsIds.xml",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/docx/scripts/templates/people.xml",
-      "destination": "runtime/skills/productivity/docx/scripts/templates/people.xml",
+      "source": "/root/.hermes/skills/productivity/docx/LICENSE",
+      "destination": "runtime/skills/productivity/docx/LICENSE",
       "reason": "not-allowlisted"
     },
     {
@@ -831,199 +652,29 @@
       "reason": "not-allowlisted"
     },
     {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "source": "/root/.hermes/skills/productivity/pdf/LICENSE",
+      "destination": "runtime/skills/productivity/pdf/LICENSE",
       "reason": "not-allowlisted"
     },
     {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "source": "/root/.hermes/skills/productivity/pdf/scripts/pdf_page_image.py",
+      "destination": "runtime/skills/productivity/pdf/scripts/pdf_page_image.py",
+      "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/productivity/powerpoint/LICENSE",
+      "destination": "runtime/skills/productivity/powerpoint/LICENSE",
       "reason": "not-allowlisted"
     },
     {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "source": "/root/.hermes/skills/productivity/xlsx/LICENSE",
+      "destination": "runtime/skills/productivity/xlsx/LICENSE",
       "reason": "not-allowlisted"
     },
     {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "reason": "not-allowlisted"
-    },
-    {
-      "source": "/root/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "destination": "runtime/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "reason": "not-allowlisted"
+      "source": "/root/.hermes/skills/productivity/xlsx/scripts/xlsx_edit.py",
+      "destination": "runtime/skills/productivity/xlsx/scripts/xlsx_edit.py",
+      "reason": "secret-pattern"
     },
     {
       "source": "/root/.hermes/skills/research/research-paper-writing/references/citation-workflow.md",
@@ -1224,6 +875,11 @@
       "source": "/root/.hermes/skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
       "destination": "runtime/skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
       "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/software-development/github/scripts/git-credential-token.py",
+      "destination": "runtime/skills/software-development/github/scripts/git-credential-token.py",
+      "reason": "secret-pattern"
     }
   ]
 }
