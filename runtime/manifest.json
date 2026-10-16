@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-10-15T06:15:42.499522+00:00",
+  "exported_at_utc": "2026-10-16T06:15:05.105164+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -254,9 +254,6 @@
     "runtime/skills/devops/sdlc-review/SKILL.md",
     "runtime/skills/email/DESCRIPTION.md",
     "runtime/skills/email/email-inbox-triage/SKILL.md",
-    "runtime/skills/email/himalaya/SKILL.md",
-    "runtime/skills/email/himalaya/references/configuration.md",
-    "runtime/skills/email/himalaya/references/message-composition.md",
     "runtime/skills/github/DESCRIPTION.md",
     "runtime/skills/github/github-auth/SKILL.md",
     "runtime/skills/github/github-auth/scripts/gh-env.sh",
@@ -677,6 +674,11 @@
       "source": "/root/.hermes/skills/productivity/xlsx/scripts/xlsx_edit.py",
       "destination": "runtime/skills/productivity/xlsx/scripts/xlsx_edit.py",
       "reason": "secret-pattern"
+    },
+    {
+      "source": "/root/.hermes/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-311.pyc",
+      "destination": "runtime/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-311.pyc",
+      "reason": "not-allowlisted"
     },
     {
       "source": "/root/.hermes/skills/research/research-paper-writing/references/citation-workflow.md",
