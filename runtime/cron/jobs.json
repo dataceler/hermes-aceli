@@ -2,8 +2,8 @@
   "jobs": [
     {
       "id": "3ed719d10904",
-      "name": "Aceli \u2014 evolu\u00e7\u00e3o di\u00e1ria da Dataceler",
-      "prompt": "Produza o briefing executivo di\u00e1rio da Aceli para Jo\u00e3o Cordeiro e Adriano Torres, membros autorizados da Dataceler. Escreva em portugu\u00eas do Brasil, com linguagem simples, objetiva e executiva. A mesma mensagem ser\u00e1 entregue aos dois.\n\nMISS\u00c3O\nEntregar uma leitura clara do momento da Dataceler e orientar o que fazer em seguida. O leitor deve entender em menos de 30 segundos: onde estamos, qual \u00e9 a prioridade e quais s\u00e3o as pr\u00f3ximas a\u00e7\u00f5es.\n\nCOLETA M\u00cdNIMA E AUTORIZADA\nAntes de escrever, use apenas fontes recentes e autorizadas. Para dados do Google Workspace, fa\u00e7a leituras pontuais com:\nGAPI=\"python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/scripts/google_api.py\"\n- \"$GAPI calendar list\" para compromissos pr\u00f3ximos;\n- \"$GAPI drive search \\\"Dataceler\\\" --max 10\" para documentos e registros relevantes.\nConsulte Sheets apenas quando houver uma planilha oficial identificada no Drive. Use o hist\u00f3rico da sess\u00e3o apenas para confirmar prioridades j\u00e1 declaradas. Gmail n\u00e3o faz parte desta rotina. Nunca exponha mensagens privadas, credenciais, tokens, IDs sens\u00edveis ou dados pessoais. N\u00e3o invente fatos, prioridades ou resultados. Se uma frente n\u00e3o tiver evid\u00eancia, escreva \u201csem dados suficientes\u201d e especifique a fonte ausente em poucas palavras.\n\nCOMO DEFINIR O FOCO\n1. Avalie Comercial/receita, Clientes/entregas e Opera\u00e7\u00e3o/riscos.\n2. Selecione o fato com maior combina\u00e7\u00e3o de impacto, urg\u00eancia e confian\u00e7a.\n3. Construa todo o briefing em torno desse \u00fanico foco.\n4. Diferencie claramente fato, leitura executiva e a\u00e7\u00e3o.\n\nFORMATO OBRIGAT\u00d3RIO\n**PANORAMA**\n- **Comercial:** uma frase com fato verific\u00e1vel ou \u201csem dados suficientes\u201d.\n- **Entregas:** uma frase com fato verific\u00e1vel ou \u201csem dados suficientes\u201d.\n- **Opera\u00e7\u00e3o:** uma frase com fato verific\u00e1vel ou \u201csem dados suficientes\u201d.\n\n**MENSAGEM-CHAVE**\nUma \u00fanica frase que explique o impacto do panorama em receita, cliente, prazo, efici\u00eancia ou risco.\n\n**OBJETIVO DE HOJE**\nUm \u00fanico resultado mensur\u00e1vel a alcan\u00e7ar hoje.\n\n**PR\u00d3XIMAS A\u00c7\u00d5ES**\n1. **Respons\u00e1vel sugerido \u2014 a\u00e7\u00e3o concreta \u2014 prazo \u2014 resultado esperado.**\n2. Inclua a segunda a\u00e7\u00e3o apenas se for indispens\u00e1vel.\n\n**DECIS\u00c3O NECESS\u00c1RIA**\nInclua somente se Jo\u00e3o ou Adriano precisarem escolher ou aprovar algo hoje. Caso contr\u00e1rio, omita.\n\nREGRAS DE QUALIDADE\n- M\u00e1ximo de 12 linhas \u00fateis e um \u00fanico tema central.\n- N\u00e3o liste capacidades da Aceli, not\u00edcias, tend\u00eancias ou integra\u00e7\u00f5es sem efeito imediato.\n- N\u00e3o misture diagn\u00f3stico, recomenda\u00e7\u00e3o e pergunta na mesma frase.\n- N\u00e3o fa\u00e7a perguntas abertas para coletar contexto. Se faltar dado cr\u00edtico, pe\u00e7a apenas esse dado espec\u00edfico na a\u00e7\u00e3o ou decis\u00e3o.\n- N\u00e3o recomende \u201cconsolidar prioridades\u201d ou \u201cganhar visibilidade\u201d de forma abstrata. Nomeie item, respons\u00e1vel, prazo e resultado.\n- N\u00e3o repita a recomenda\u00e7\u00e3o do dia anterior sem fato novo; se persistir, declare a pend\u00eancia e sua consequ\u00eancia.\n- N\u00e3o execute mudan\u00e7as nem a\u00e7\u00f5es sens\u00edveis nesta rotina.\n- A resposta final deve conter somente a mensagem destinada aos usu\u00e1rios, sem coment\u00e1rios sobre o agendador.",
+      "name": "Aceli — evolução diária da Dataceler",
+      "prompt": "Produza o briefing executivo diário da Aceli para João Cordeiro e Adriano Torres, membros autorizados da Dataceler. Escreva em português do Brasil, com linguagem simples, objetiva e executiva. A mesma mensagem será entregue aos dois.\n\nMISSÃO\nEntregar uma leitura clara do momento da Dataceler e orientar o que fazer em seguida. O leitor deve entender em menos de 30 segundos: onde estamos, qual é a prioridade e quais são as próximas ações.\n\nCOLETA MÍNIMA E AUTORIZADA\nAntes de escrever, use apenas fontes recentes e autorizadas. Para dados do Google Workspace, faça leituras pontuais com:\nGAPI=\"python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/scripts/google_api.py\"\n- \"$GAPI calendar list\" para compromissos próximos;\n- \"$GAPI drive search \\\"Dataceler\\\" --max 10\" para documentos e registros relevantes.\nConsulte Sheets apenas quando houver uma planilha oficial identificada no Drive. Use o histórico da sessão apenas para confirmar prioridades já declaradas. Gmail não faz parte desta rotina. Nunca exponha mensagens privadas, credenciais, tokens, IDs sensíveis ou dados pessoais. Não invente fatos, prioridades ou resultados. Se uma frente não tiver evidência, escreva “sem dados suficientes” e especifique a fonte ausente em poucas palavras.\n\nCOMO DEFINIR O FOCO\n1. Avalie Comercial/receita, Clientes/entregas e Operação/riscos.\n2. Selecione o fato com maior combinação de impacto, urgência e confiança.\n3. Construa todo o briefing em torno desse único foco.\n4. Diferencie claramente fato, leitura executiva e ação.\n\nFORMATO OBRIGATÓRIO\n**PANORAMA**\n- **Comercial:** uma frase com fato verificável ou “sem dados suficientes”.\n- **Entregas:** uma frase com fato verificável ou “sem dados suficientes”.\n- **Operação:** uma frase com fato verificável ou “sem dados suficientes”.\n\n**MENSAGEM-CHAVE**\nUma única frase que explique o impacto do panorama em receita, cliente, prazo, eficiência ou risco.\n\n**OBJETIVO DE HOJE**\nUm único resultado mensurável a alcançar hoje.\n\n**PRÓXIMAS AÇÕES**\n1. **Responsável sugerido — ação concreta — prazo — resultado esperado.**\n2. Inclua a segunda ação apenas se for indispensável.\n\n**DECISÃO NECESSÁRIA**\nInclua somente se João ou Adriano precisarem escolher ou aprovar algo hoje. Caso contrário, omita.\n\nREGRAS DE QUALIDADE\n- Máximo de 12 linhas úteis e um único tema central.\n- Não liste capacidades da Aceli, notícias, tendências ou integrações sem efeito imediato.\n- Não misture diagnóstico, recomendação e pergunta na mesma frase.\n- Não faça perguntas abertas para coletar contexto. Se faltar dado crítico, peça apenas esse dado específico na ação ou decisão.\n- Não recomende “consolidar prioridades” ou “ganhar visibilidade” de forma abstrata. Nomeie item, responsável, prazo e resultado.\n- Não repita a recomendação do dia anterior sem fato novo; se persistir, declare a pendência e sua consequência.\n- Não execute mudanças nem ações sensíveis nesta rotina.\n- A resposta final deve conter somente a mensagem destinada aos usuários, sem comentários sobre o agendador.",
       "skills": [],
       "skill": null,
       "model": "gpt-5.6-terra",
@@ -38,7 +38,7 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
@@ -51,8 +51,8 @@
     },
     {
       "id": "e125a5b01563",
-      "name": "Aceli \u2014 5 perguntas di\u00e1rias sobre IA",
-      "prompt": "Todos os dias, produza uma mensagem destinada a Jo\u00e3o Cordeiro com exatamente cinco perguntas abertas, profundas e **contextualizadas** sobre intelig\u00eancia artificial.\n\nObjetivos:\n1. Compreender melhor a forma de racioc\u00ednio, comunica\u00e7\u00e3o, linguagem, valores e ponto de vista de Jo\u00e3o Cordeiro.\n2. Gerar mat\u00e9ria-prima potencial para conte\u00fados da Dataceler e do perfil @joaocordeiro.ia, sempre mediante revis\u00e3o e aprova\u00e7\u00e3o.\n\nAntes de escrever:\n- Use fontes atuais e verific\u00e1veis quando um fato recente for relevante; se a busca externa estiver indispon\u00edvel, use temas evergreen e n\u00e3o invente fatos, n\u00fameros ou tend\u00eancias.\n- Use session_search quando dispon\u00edvel para reduzir repeti\u00e7\u00e3o de temas e formula\u00e7\u00f5es.\n\nRequisitos obrigat\u00f3rios:\n- Escreva em portugu\u00eas do Brasil.\n- Entregue exatamente cinco itens, numerados de 1 a 5.\n- Cada pergunta deve obrigatoriamente conter: **Cen\u00e1rio**, **Decis\u00e3o**, **Restri\u00e7\u00e3o** e **Pergunta**.\n- O cen\u00e1rio deve ser concreto: empresa, fun\u00e7\u00e3o, processo, cliente, equipe ou situa\u00e7\u00e3o operacional plaus\u00edvel. Evite perguntas abstratas sobre \u201cas empresas\u201d ou \u201ca sociedade\u201d sem caso espec\u00edfico.\n- A decis\u00e3o deve exigir escolha, prioridade, limite, crit\u00e9rio ou consequ\u00eancia pr\u00e1tica.\n- A restri\u00e7\u00e3o deve trazer ao menos um elemento real: prazo, or\u00e7amento, risco, aprova\u00e7\u00e3o humana, dado sens\u00edvel, responsabilidade jur\u00eddica, impacto no cliente, capacidade da equipe ou m\u00e9trica.\n- D\u00ea informa\u00e7\u00e3o suficiente para Jo\u00e3o responder sem precisar pedir exemplos adicionais. N\u00e3o esconda o contexto na pergunta.\n- Varie entre estrat\u00e9gia empresarial, trabalho, produtividade, educa\u00e7\u00e3o, \u00e9tica, governan\u00e7a, riscos, ado\u00e7\u00e3o, retorno financeiro, atendimento e opera\u00e7\u00e3o.\n- Quando a pergunta depender de fato atual, inclua link curto para a fonte que motivou o cen\u00e1rio.\n- N\u00e3o fa\u00e7a trivia, defini\u00e7\u00f5es b\u00e1sicas, perguntas de sim/n\u00e3o nem perguntas gen\u00e9ricas como \u201co que voc\u00ea acha da IA?\u201d.\n- N\u00e3o responda \u00e0s perguntas nem produza an\u00e1lise final.\n- Mantenha tom executivo, curioso e intelectualmente exigente, sem academicismo.\n\nFormato:\n**5 perguntas da Aceli sobre IA \u2014 [data]**\n\n1. **Cen\u00e1rio:** ...\n   **Decis\u00e3o:** ...\n   **Restri\u00e7\u00e3o:** ...\n   **Pergunta:** ...\n\nRepita at\u00e9 o item 5 e encerre com uma frase curta: Jo\u00e3o pode responder com liberdade; respostas poder\u00e3o ser reaproveitadas depois, mediante revis\u00e3o.\n\nA resposta final deve conter somente a mensagem destinada a Jo\u00e3o, sem coment\u00e1rios sobre agendador, ferramentas ou processo interno.",
+      "name": "Aceli — 5 perguntas diárias sobre IA",
+      "prompt": "Todos os dias, produza uma mensagem destinada a João Cordeiro com exatamente cinco perguntas abertas, profundas e **contextualizadas** sobre inteligência artificial.\n\nObjetivos:\n1. Compreender melhor a forma de raciocínio, comunicação, linguagem, valores e ponto de vista de João Cordeiro.\n2. Gerar matéria-prima potencial para conteúdos da Dataceler e do perfil @joaocordeiro.ia, sempre mediante revisão e aprovação.\n\nAntes de escrever:\n- Use fontes atuais e verificáveis quando um fato recente for relevante; se a busca externa estiver indisponível, use temas evergreen e não invente fatos, números ou tendências.\n- Use session_search quando disponível para reduzir repetição de temas e formulações.\n\nRequisitos obrigatórios:\n- Escreva em português do Brasil.\n- Entregue exatamente cinco itens, numerados de 1 a 5.\n- Cada pergunta deve obrigatoriamente conter: **Cenário**, **Decisão**, **Restrição** e **Pergunta**.\n- O cenário deve ser concreto: empresa, função, processo, cliente, equipe ou situação operacional plausível. Evite perguntas abstratas sobre “as empresas” ou “a sociedade” sem caso específico.\n- A decisão deve exigir escolha, prioridade, limite, critério ou consequência prática.\n- A restrição deve trazer ao menos um elemento real: prazo, orçamento, risco, aprovação humana, dado sensível, responsabilidade jurídica, impacto no cliente, capacidade da equipe ou métrica.\n- Dê informação suficiente para João responder sem precisar pedir exemplos adicionais. Não esconda o contexto na pergunta.\n- Varie entre estratégia empresarial, trabalho, produtividade, educação, ética, governança, riscos, adoção, retorno financeiro, atendimento e operação.\n- Quando a pergunta depender de fato atual, inclua link curto para a fonte que motivou o cenário.\n- Não faça trivia, definições básicas, perguntas de sim/não nem perguntas genéricas como “o que você acha da IA?”.\n- Não responda às perguntas nem produza análise final.\n- Mantenha tom executivo, curioso e intelectualmente exigente, sem academicismo.\n\nFormato:\n**5 perguntas da Aceli sobre IA — [data]**\n\n1. **Cenário:** ...\n   **Decisão:** ...\n   **Restrição:** ...\n   **Pergunta:** ...\n\nRepita até o item 5 e encerre com uma frase curta: João pode responder com liberdade; respostas poderão ser reaproveitadas depois, mediante revisão.\n\nA resposta final deve conter somente a mensagem destinada a João, sem comentários sobre agendador, ferramentas ou processo interno.",
       "skills": [],
       "skill": null,
       "model": "gpt-5.6-terra",
@@ -87,7 +87,7 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
@@ -100,8 +100,8 @@
     },
     {
       "id": "6bee029229eb",
-      "name": "Aceli \u2014 10 temas di\u00e1rios de IA",
-      "prompt": "Produza o ranking di\u00e1rio da Aceli com exatamente 10 temas de intelig\u00eancia artificial mais discutidos no momento para Jo\u00e3o Cordeiro.\n\nObjetivo: identificar o que est\u00e1 concentrando aten\u00e7\u00e3o p\u00fablica e profissional em IA no dia, com sinais de Reddit, X/Twitter, YouTube, fontes oficiais, comunidades t\u00e9cnicas e imprensa especializada. O resultado deve apoiar repert\u00f3rio, decis\u00f5es e cria\u00e7\u00e3o de conte\u00fado da Dataceler e do perfil @joaocordeiro.ia.\n\nColeta obrigat\u00f3ria:\n1. Use `web_search` com v\u00e1rias consultas independentes, priorizando as \u00faltimas 24 horas; amplie para 72 horas apenas quando n\u00e3o houver evid\u00eancia suficiente.\n2. Pesquise explicitamente resultados e discuss\u00f5es em `reddit.com`, `x.com`/Twitter e `youtube.com`.\n3. Pesquise tamb\u00e9m fontes prim\u00e1rias: blogs oficiais de empresas de IA, documenta\u00e7\u00e3o, an\u00fancios, papers, reposit\u00f3rios e \u00f3rg\u00e3os reguladores.\n4. Cruze com imprensa especializada e ve\u00edculos confi\u00e1veis.\n5. Use `session_search` quando dispon\u00edvel para consultar rankings anteriores desta rotina. Um tema pode reaparecer somente se continuar relevante; nesse caso, marque \u201ccontinua em alta\u201d e destaque o desenvolvimento novo.\n\nM\u00e9todo editorial:\n- Monte internamente uma lista ampla de candidatos e agrupe publica\u00e7\u00f5es que tratem do mesmo acontecimento.\n- Ordene os 10 temas por combina\u00e7\u00e3o de recorr\u00eancia entre plataformas, rec\u00eancia, sinais p\u00fablicos de engajamento, relev\u00e2ncia e diversidade de fontes.\n- N\u00e3o alegue que o ranking representa uma medi\u00e7\u00e3o exata de toda a internet. Apresente-o como ranking baseado em sinais p\u00fablicos observ\u00e1veis.\n- N\u00e3o invente n\u00fameros de coment\u00e1rios, visualiza\u00e7\u00f5es, curtidas, buscas ou crescimento.\n- Diferencie fato confirmado de interpreta\u00e7\u00e3o.\n- Se um t\u00f3pico aparecer apenas em uma plataforma, declare isso e reduza sua confian\u00e7a.\n- N\u00e3o trate propaganda, rumor ou postagem viral como fato sem verifica\u00e7\u00e3o independente.\n- N\u00e3o repita a mesma not\u00edcia como v\u00e1rios t\u00f3picos.\n\nFormato obrigat\u00f3rio:\n**10 temas de IA mais discutidos \u2014 [data]**\n\nInclua uma frase inicial curta: \u201cRanking editorial baseado em sinais p\u00fablicos observ\u00e1veis nas \u00faltimas 24\u201372 horas; n\u00e3o \u00e9 uma medi\u00e7\u00e3o absoluta de toda a internet.\u201d\n\nPara cada item de 1 a 10:\n\n**[n]. [Tema espec\u00edfico]**\n- **O que aconteceu:** uma ou duas frases factuais.\n- **Por que est\u00e1 em alta:** plataformas, comunidades ou acontecimentos que concentram a discuss\u00e3o.\n- **Consequ\u00eancia relevante:** impacto para empres\u00e1rios, pessoas n\u00e3o t\u00e9cnicas ou profissionais de tecnologia.\n- **Confian\u00e7a:** alta, m\u00e9dia ou baixa, com justificativa curta.\n- **Fontes:** de 2 a 4 links diretos, priorizando pelo menos uma fonte prim\u00e1ria quando existir.\n\nRegras:\n- Entregue exatamente 10 t\u00f3picos completos.\n- Escreva em portugu\u00eas do Brasil, com linguagem executiva e acess\u00edvel.\n- Priorize temas realmente discutidos no dia; n\u00e3o preencha a lista com conceitos evergreen apenas para completar quantidade.\n- Cubra assuntos diferentes quando houver diversidade real: modelos, agentes, ferramentas, neg\u00f3cios, trabalho, regula\u00e7\u00e3o, seguran\u00e7a, pesquisa e sociedade.\n- Evite t\u00edtulos gen\u00e9ricos como \u201cChatGPT\u201d, \u201cagentes\u201d ou \u201cIA generativa\u201d; descreva o acontecimento ou debate espec\u00edfico.\n- N\u00e3o proponha pauta, roteiro ou opini\u00e3o de Jo\u00e3o nesta mensagem; entregue somente o radar de temas.\n- A resposta final deve conter apenas a mensagem destinada ao usu\u00e1rio, sem coment\u00e1rios sobre ferramentas, agendador ou processo interno.",
+      "name": "Aceli — 10 temas diários de IA",
+      "prompt": "Produza o ranking diário da Aceli com exatamente 10 temas de inteligência artificial mais discutidos no momento para João Cordeiro.\n\nObjetivo: identificar o que está concentrando atenção pública e profissional em IA no dia, com sinais de Reddit, X/Twitter, YouTube, fontes oficiais, comunidades técnicas e imprensa especializada. O resultado deve apoiar repertório, decisões e criação de conteúdo da Dataceler e do perfil @joaocordeiro.ia.\n\nColeta obrigatória:\n1. Use `web_search` com várias consultas independentes, priorizando as últimas 24 horas; amplie para 72 horas apenas quando não houver evidência suficiente.\n2. Pesquise explicitamente resultados e discussões em `reddit.com`, `x.com`/Twitter e `youtube.com`.\n3. Pesquise também fontes primárias: blogs oficiais de empresas de IA, documentação, anúncios, papers, repositórios e órgãos reguladores.\n4. Cruze com imprensa especializada e veículos confiáveis.\n5. Use `session_search` quando disponível para consultar rankings anteriores desta rotina. Um tema pode reaparecer somente se continuar relevante; nesse caso, marque “continua em alta” e destaque o desenvolvimento novo.\n\nMétodo editorial:\n- Monte internamente uma lista ampla de candidatos e agrupe publicações que tratem do mesmo acontecimento.\n- Ordene os 10 temas por combinação de recorrência entre plataformas, recência, sinais públicos de engajamento, relevância e diversidade de fontes.\n- Não alegue que o ranking representa uma medição exata de toda a internet. Apresente-o como ranking baseado em sinais públicos observáveis.\n- Não invente números de comentários, visualizações, curtidas, buscas ou crescimento.\n- Diferencie fato confirmado de interpretação.\n- Se um tópico aparecer apenas em uma plataforma, declare isso e reduza sua confiança.\n- Não trate propaganda, rumor ou postagem viral como fato sem verificação independente.\n- Não repita a mesma notícia como vários tópicos.\n\nFormato obrigatório:\n**10 temas de IA mais discutidos — [data]**\n\nInclua uma frase inicial curta: “Ranking editorial baseado em sinais públicos observáveis nas últimas 24–72 horas; não é uma medição absoluta de toda a internet.”\n\nPara cada item de 1 a 10:\n\n**[n]. [Tema específico]**\n- **O que aconteceu:** uma ou duas frases factuais.\n- **Por que está em alta:** plataformas, comunidades ou acontecimentos que concentram a discussão.\n- **Consequência relevante:** impacto para empresários, pessoas não técnicas ou profissionais de tecnologia.\n- **Confiança:** alta, média ou baixa, com justificativa curta.\n- **Fontes:** de 2 a 4 links diretos, priorizando pelo menos uma fonte primária quando existir.\n\nRegras:\n- Entregue exatamente 10 tópicos completos.\n- Escreva em português do Brasil, com linguagem executiva e acessível.\n- Priorize temas realmente discutidos no dia; não preencha a lista com conceitos evergreen apenas para completar quantidade.\n- Cubra assuntos diferentes quando houver diversidade real: modelos, agentes, ferramentas, negócios, trabalho, regulação, segurança, pesquisa e sociedade.\n- Evite títulos genéricos como “ChatGPT”, “agentes” ou “IA generativa”; descreva o acontecimento ou debate específico.\n- Não proponha pauta, roteiro ou opinião de João nesta mensagem; entregue somente o radar de temas.\n- A resposta final deve conter apenas a mensagem destinada ao usuário, sem comentários sobre ferramentas, agendador ou processo interno.",
       "skills": [],
       "skill": null,
       "model": "gpt-5.6-terra",
@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 74
+        "completed": 75
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-10-16T12:03:00+00:00",
-      "last_run_at": "2026-10-15T12:04:27.624095+00:00",
+      "next_run_at": "2026-10-17T12:03:00+00:00",
+      "last_run_at": "2026-10-16T12:04:29.211529+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -136,7 +136,7 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
@@ -145,12 +145,19 @@
         "session_search"
       ],
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-16T12:03:00+00:00",
+        "dispatched_at": "2026-10-16T12:03:00.211757+00:00",
+        "lateness_seconds": 0.2,
+        "kind": "on_time"
+      },
+      "failure_streak": 0
     },
     {
       "id": "04d2c05b1683",
-      "name": "Monitor di\u00e1rio de outliers do YouTube \u2014 14h Bras\u00edlia",
-      "prompt": "Executar o script de monitoramento p\u00fablico de 39 canais do YouTube. A sa\u00edda do script j\u00e1 \u00e9 a mensagem final; sa\u00edda vazia significa sil\u00eancio.",
+      "name": "Monitor diário de outliers do YouTube — 14h Brasília",
+      "prompt": "Executar o script de monitoramento público de 39 canais do YouTube. A saída do script já é a mensagem final; saída vazia significa silêncio.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -169,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 74
+        "completed": 75
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-10-16T17:00:00+00:00",
-      "last_run_at": "2026-10-15T17:01:11.903218+00:00",
+      "next_run_at": "2026-10-17T17:00:00+00:00",
+      "last_run_at": "2026-10-16T17:00:24.229715+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -185,18 +192,25 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-16T17:00:00+00:00",
+        "dispatched_at": "2026-10-16T17:00:00.213005+00:00",
+        "lateness_seconds": 0.2,
+        "kind": "on_time"
+      },
+      "failure_streak": 0
     },
     {
       "id": "16549c515aae",
-      "name": "GitHub \u2014 5 novos reposit\u00f3rios em destaque",
-      "prompt": "Execute o script di\u00e1rio de ranking de reposit\u00f3rios p\u00fablicos rec\u00e9m-criados no GitHub e entregue o stdout exatamente como produzido. N\u00e3o acrescente coment\u00e1rios, cabe\u00e7alhos ou rodap\u00e9s.",
+      "name": "GitHub — 5 novos repositórios em destaque",
+      "prompt": "Execute o script diário de ranking de repositórios públicos recém-criados no GitHub e entregue o stdout exatamente como produzido. Não acrescente comentários, cabeçalhos ou rodapés.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -218,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 66
+        "completed": 67
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-10-16T12:10:00+00:00",
-      "last_run_at": "2026-10-15T12:10:48.462610+00:00",
+      "next_run_at": "2026-10-17T12:10:00+00:00",
+      "last_run_at": "2026-10-16T12:10:06.032686+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -234,18 +248,25 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-16T12:10:00+00:00",
+        "dispatched_at": "2026-10-16T12:10:00.206951+00:00",
+        "lateness_seconds": 0.2,
+        "kind": "on_time"
+      },
+      "failure_streak": 0
     },
     {
       "id": "163251c751f5",
-      "name": "Backup sanitizado \u2014 Hermes Aceli",
-      "prompt": "Execute a sincroniza\u00e7\u00e3o sanitizada do workspace Hermes Aceli. O script s\u00f3 produz sa\u00edda quando publicar um backup; sa\u00edda vazia significa sil\u00eancio.",
+      "name": "Backup sanitizado — Hermes Aceli",
+      "prompt": "Execute a sincronização sanitizada do workspace Hermes Aceli. O script só produz saída quando publicar um backup; saída vazia significa silêncio.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -267,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 66
+        "completed": 67
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-10-17T06:15:00+00:00",
-      "last_run_at": "2026-10-15T06:15:46.610337+00:00",
+      "next_run_at": "2026-10-18T06:15:00+00:00",
+      "last_run_at": "2026-10-16T06:15:10.014261+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -283,14 +304,23 @@
       "origin": {
         "platform": "telegram",
         "chat_id": "984255944",
-        "chat_name": "Jo\u00e3o Cordeiro",
+        "chat_name": "João Cordeiro",
         "thread_id": null,
         "user_id": "984255944"
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": {
+        "at": "2026-10-17T06:15:03.856977+00:00",
+        "by": "srv1833056:708:999c3ffa5a0044bea3ea4a451e2f8ab9"
+      },
+      "last_dispatch": {
+        "scheduled_at": "2026-10-17T06:15:00+00:00",
+        "dispatched_at": "2026-10-17T06:15:00.205120+00:00",
+        "lateness_seconds": 0.2,
+        "kind": "on_time"
+      }
     }
   ],
-  "updated_at": "2026-10-16T06:15:01.963378+00:00"
+  "updated_at": "2026-10-17T06:15:03.858335+00:00"
 }
