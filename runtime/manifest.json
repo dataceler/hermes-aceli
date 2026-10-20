@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-10-19T06:15:05.005908+00:00",
+  "exported_at_utc": "2026-10-20T06:15:02.781407+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -339,6 +339,7 @@
     "runtime/skills/productivity/docx/tests/test_docx_skill.py",
     "runtime/skills/productivity/executive-briefings/SKILL.md",
     "runtime/skills/productivity/executive-briefings/references/dataceler-daily-briefing.md",
+    "runtime/skills/productivity/gmail-label-monitoring/SKILL.md",
     "runtime/skills/productivity/google-workspace/SKILL.md",
     "runtime/skills/productivity/google-workspace/references/gmail-search-syntax.md",
     "runtime/skills/productivity/google-workspace/scripts/_hermes_home.py",
@@ -678,6 +679,11 @@
     {
       "source": "/root/.hermes/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-311.pyc",
       "destination": "runtime/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-311.pyc",
+      "reason": "not-allowlisted"
+    },
+    {
+      "source": "/root/.hermes/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-314.pyc",
+      "destination": "runtime/skills/research/grounded-citations/scripts/__pycache__/_hermes_home.cpython-314.pyc",
       "reason": "not-allowlisted"
     },
     {

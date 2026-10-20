@@ -131,7 +131,10 @@ Padrão inicial:
 - evidências visuais somente quando legíveis;
 - contraste escuro em slides de alerta quando servir ao argumento.
 
-Não dependa de modelos de imagem para renderizar texto. Para slides densos, diagramas, setas, círculos e botões, prefira Pillow ou HTML/CSS determinístico.
+- Não dependa de modelos de imagem para renderizar texto.
+- Padrão obrigatório: HTML/CSS determinístico → captura em PNG com Chromium/Playwright.
+- Para a identidade visual, use como referência de primeira ordem o sistema HTML/CSS já aprovado no repositório privado `dataceler/Dataceler_AIOS` (`areas/02-marketing/instagram/`), incluindo tokens, hierarquia, espaçamento, rodapé, avatar e progressão. Não copie conteúdo, dados de clientes ou identidade de terceiros.
+- Pillow só pode ser usado para inspeção auxiliar ou fallback técnico explicitamente justificado; nunca como padrão visual quando o fluxo HTML estiver disponível.
 
 **Concluído quando:** o sistema é reconhecível como Dataceler e não como cópia da referência.
 
@@ -145,7 +148,9 @@ instagram-dataceler-{tema}/
 ├── structured-content.md
 ├── caption.md
 ├── assets/
-├── scripts/render_carousel.py
+├── cards.html
+├── assets/
+├── scripts/render_html_carousel.mjs
 ├── slides/slide-01.png ...
 ├── contact-sheet.jpg
 ├── verification.json
@@ -159,7 +164,8 @@ Regras:
 - modo RGB;
 - texto e elementos dentro da área segura;
 - arquivos não vazios;
-- render completo após mudança no código-fonte.
+- render completo após mudança no código-fonte HTML/CSS;
+- capture cada `.slide` por seu bounding box real em Chromium/Playwright, nunca por recorte manual.
 
 **Concluído quando:** todos os PNGs existem e abrem com quantidade, dimensões e modo corretos.
 

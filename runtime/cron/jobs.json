@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 77
+        "completed": 78
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-10-19T12:03:00+00:00",
-      "last_run_at": "2026-10-18T12:04:06.797873+00:00",
+      "next_run_at": "2026-10-20T12:03:00+00:00",
+      "last_run_at": "2026-10-19T12:05:57.135485+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,8 +147,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-18T12:03:00+00:00",
-        "dispatched_at": "2026-10-18T12:03:00.204768+00:00",
+        "scheduled_at": "2026-10-19T12:03:00+00:00",
+        "dispatched_at": "2026-10-19T12:03:00.205705+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 77
+        "completed": 78
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-10-19T17:00:00+00:00",
-      "last_run_at": "2026-10-18T17:00:21.743017+00:00",
+      "next_run_at": "2026-10-20T17:00:00+00:00",
+      "last_run_at": "2026-10-19T17:00:26.518436+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,8 +200,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-18T17:00:00+00:00",
-        "dispatched_at": "2026-10-18T17:00:00.208321+00:00",
+        "scheduled_at": "2026-10-19T17:00:00+00:00",
+        "dispatched_at": "2026-10-19T17:00:00.222101+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 69
+        "completed": 70
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-10-19T12:10:00+00:00",
-      "last_run_at": "2026-10-18T12:10:05.068375+00:00",
+      "next_run_at": "2026-10-20T12:10:00+00:00",
+      "last_run_at": "2026-10-19T12:10:04.526080+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,8 +256,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-18T12:10:00+00:00",
-        "dispatched_at": "2026-10-18T12:10:00.208270+00:00",
+        "scheduled_at": "2026-10-19T12:10:00+00:00",
+        "dispatched_at": "2026-10-19T12:10:00.214022+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 69
+        "completed": 70
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-10-20T06:15:00+00:00",
-      "last_run_at": "2026-10-18T06:15:11.450991+00:00",
+      "next_run_at": "2026-10-21T06:15:00+00:00",
+      "last_run_at": "2026-10-19T06:15:10.978614+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,17 +311,131 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-10-19T06:15:03.218024+00:00",
-        "by": "srv1833056:708:8eb0db5c778341e2b11e75481dcec393"
+        "at": "2026-10-20T06:15:01.216016+00:00",
+        "by": "srv1833056:708:9c47432168e24e1d824880ff759b19b1"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-10-19T06:15:00+00:00",
-        "dispatched_at": "2026-10-19T06:15:00.210866+00:00",
+        "scheduled_at": "2026-10-20T06:15:00+00:00",
+        "dispatched_at": "2026-10-20T06:15:00.211814+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
       "failure_streak": 0
+    },
+    {
+      "id": "008ad6888f40",
+      "name": "Gmail — monitor e marcadores existentes",
+      "prompt": "Execute o monitor de Gmail. O script aplica somente os marcadores existentes aprovados pelo usuário em mensagens novas, preserva Inbox/leitura/marcadores atuais e só emite saída quando houver classificação ou falha.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "gmail-label-monitor.py",
+      "no_agent": true,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 30,
+        "display": "every 30m"
+      },
+      "schedule_display": "every 30m",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-20T02:42:33.228884+00:00",
+      "next_run_at": "2026-10-20T06:18:15.036696+00:00",
+      "last_run_at": "2026-10-20T05:48:15.036696+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "João Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "failure_deliver": "origin",
+      "last_dispatch": {
+        "scheduled_at": "2026-10-20T05:47:14.237319+00:00",
+        "dispatched_at": "2026-10-20T05:48:00.219256+00:00",
+        "lateness_seconds": 46.0,
+        "kind": "on_time"
+      },
+      "fire_claim": null
+    },
+    {
+      "id": "8e0df70674d8",
+      "name": "Instagram Dataceler — carrossel diário para aprovação",
+      "prompt": "Produza o carrossel diário da Dataceler para aprovação humana. Não publique no Instagram, não crie rascunho na plataforma e não execute qualquer ação externa de postagem.\n\nSiga as skills `dataceler-instagram-carousel-editorial` e `grounded-citations`.\n\nPadrão visual obrigatório: HTML/CSS determinístico inspirado no sistema existente do repositório privado `dataceler/Dataceler_AIOS`, especialmente `areas/02-marketing/instagram/`. Replique a linguagem própria da Dataceler — composição editorial em retrato, hierarquia tipográfica forte, paleta, espaço negativo, rodapé com avatar oficial e barra de progresso — sem copiar conteúdo ou dados privados. Não use geradores de imagem nem Pillow como renderizador principal.\n\nFluxo obrigatório:\n1. Pesquise e valide fatos em fontes primárias verificáveis; separe fato, análise e hipótese.\n2. Defina tese empresarial e roteiro de exatamente 10 slides, uma ideia por slide.\n3. Crie `cards.html` em 1080×1350 com todos os slides e ativo local do avatar oficial.\n4. Renderize cada `.slide` por bounding box real com Chromium/Playwright em PNG RGB 1080×1350; não faça recortes manuais.\n5. Faça QA automático: 10 PNGs não vazios, dimensões 1080×1350, RGB, nenhum overflow HTML. Faça QA visual da folha de contato e dos slides densos/CTA.\n6. Entregue o pacote em `/root/.hermes/artifacts/instagram-dataceler/daily/YYYY-MM-DD-<slug>/` com `cards.html`, `slides/slide-01.png` até `slide-10.png`, `contact-sheet.jpg`, `caption.md`, `structured-content.md`, `source.md`, `verification.json` e ZIP validado.\n7. Informe tema, tese, fontes, resultado objetivo de QA, caminho do ZIP e anexe a folha de contato. Peça aprovação explícita.\n\nAprovação do material não autoriza publicação. Se ocorrer bloqueio técnico, reporte o bloqueio com evidência e não invente artefatos.",
+      "skills": [
+        "dataceler-instagram-carousel-editorial",
+        "grounded-citations"
+      ],
+      "skill": "dataceler-instagram-carousel-editorial",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * *",
+        "display": "0 11 * * *"
+      },
+      "schedule_display": "0 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-20T03:06:20.185891+00:00",
+      "next_run_at": "2026-10-20T11:00:00+00:00",
+      "last_run_at": "2026-10-20T03:08:34.404292+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "João Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944",
+        "scope_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "web"
+      ],
+      "workdir": null,
+      "attach_to_session": true,
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-19T06:15:03.219456+00:00"
+  "updated_at": "2026-10-20T06:15:01.217118+00:00"
 }
