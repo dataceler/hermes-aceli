@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-10-21T06:15:04.414238+00:00",
+  "exported_at_utc": "2026-10-22T06:15:05.260500+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -38,6 +38,7 @@
     "runtime/skills/autonomous-ai-agents/hermes-docker-operations/SKILL.md",
     "runtime/skills/autonomous-ai-agents/hermes-docker-operations/references/persistent-local-stt.md",
     "runtime/skills/autonomous-ai-agents/opencode/SKILL.md",
+    "runtime/skills/communication/discord-conversation-audits/SKILL.md",
     "runtime/skills/communication/voz-do-adriano/SKILL.md",
     "runtime/skills/creative/DESCRIPTION.md",
     "runtime/skills/creative/architecture-diagram/SKILL.md",
@@ -441,6 +442,7 @@
     "runtime/skills/social-media/dataceler-instagram-carousel-editorial/SKILL.md",
     "runtime/skills/social-media/dataceler-instagram-carousel-editorial/references/approved-pattern-v1.md",
     "runtime/skills/social-media/dataceler-instagram-carousel-editorial/references/instagram-x-style-carousels.md",
+    "runtime/skills/social-media/dataceler-instagram-production-workflow/SKILL.md",
     "runtime/skills/social-media/dataceler-instagram-stories-editorial/SKILL.md",
     "runtime/skills/social-media/dataceler-instagram-stories-editorial/references/strategy-v1.md",
     "runtime/skills/social-media/dataceler-instagram-stories-editorial/templates/weekly-calendar.md",

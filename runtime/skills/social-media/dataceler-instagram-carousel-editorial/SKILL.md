@@ -136,7 +136,20 @@ Padrão inicial:
 - Para a identidade visual, use como referência de primeira ordem o sistema HTML/CSS já aprovado no repositório privado `dataceler/Dataceler_AIOS` (`areas/02-marketing/instagram/`), incluindo tokens, hierarquia, espaçamento, rodapé, avatar e progressão. Não copie conteúdo, dados de clientes ou identidade de terceiros.
 - Pillow só pode ser usado para inspeção auxiliar ou fallback técnico explicitamente justificado; nunca como padrão visual quando o fluxo HTML estiver disponível.
 
-**Concluído quando:** o sistema é reconhecível como Dataceler e não como cópia da referência.
+### Padrão visual obrigatório — Dataceler Navy HTML
+
+Todos os carrosséis institucionais da Dataceler devem usar o sistema HTML/CSS aprovado em `2026-10-20-capacidade-interna-ia`, salvo instrução explícita do usuário em sentido contrário.
+
+- fundo alternado entre creme frio e azul-marinho (`#071b33`);
+- azul médio/azul claro como acento (`#1262a4` / `#55adf3`), sem retornar ao verde ou bronze como paleta principal;
+- cabeçalho discreto fixo no topo: `@dataceler · IA nas empresas` e contador;
+- rodapé fixo com avatar oficial e barra de progresso de 10 etapas;
+- bloco editorial centralizado verticalmente entre cabeçalho e rodapé; não deixar conteúdo pendurado no topo com vazio excessivo abaixo;
+- tipografia Inter + JetBrains Mono para labels; títulos fortes, espaço negativo intencional;
+- diagramas funcionais — fluxos, cartões, listas, etapas e comparações — quando eles esclarecerem uma decisão; não adicionar decoração sem função;
+- não alterar a estrutura de composição por tema. Mude o conteúdo e o diagrama, não a identidade.
+
+**Concluído quando:** o sistema é reconhecível como Dataceler, mantém consistência navy e não é uma cópia de terceiros.
 
 ### 5. Renderize artefatos reais
 
@@ -315,6 +328,18 @@ Não publique automaticamente. Aprovação do material não equivale a autoriza�
 - Corrigir PNG sem corrigir o renderizador.
 - Atualizar uma skill de infográfico com aprendizados exclusivos de carrossel.
 - Publicar sem autorização explícita.
+
+### Entrega sem compressão para publicação manual
+
+PNG é lossless, mas canais de chat podem recomprimir imagens enviadas como fotos. Portanto:
+
+- entregue `contact-sheet.jpg` somente como prévia visual;
+- nunca entregue slides individuais por mídia/foto quando o objetivo é baixar para publicar;
+- crie `dataceler-<slug>-ORIGINAIS-SEM-COMPRESSAO.zip` contendo somente `slide-01.png` até `slide-10.png` e `ORIGINAIS-SEM-COMPRESSAO-SHA256.txt`;
+- valide o ZIP, reabra seus membros e compare SHA-256 de cada PNG com o original antes de entregar;
+- identifique o ZIP explicitamente como **originais sem compressão**; ele deve ser baixado e extraído antes do upload manual no Instagram.
+
+**Concluído quando:** o arquivo entregue contém pixels idênticos aos PNGs renderizados; prévias no chat não são tratadas como master de publicação.
 
 ## Verificação final
 

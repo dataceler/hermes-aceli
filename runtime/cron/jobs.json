@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 79
+        "completed": 80
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-10-21T12:03:00+00:00",
-      "last_run_at": "2026-10-20T12:06:15.601446+00:00",
+      "next_run_at": "2026-10-22T12:03:00+00:00",
+      "last_run_at": "2026-10-21T12:05:50.060873+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,8 +147,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-20T12:03:00+00:00",
-        "dispatched_at": "2026-10-20T12:03:00.207579+00:00",
+        "scheduled_at": "2026-10-21T12:03:00+00:00",
+        "dispatched_at": "2026-10-21T12:03:00.213777+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 79
+        "completed": 80
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-10-21T17:00:00+00:00",
-      "last_run_at": "2026-10-20T17:00:22.050742+00:00",
+      "next_run_at": "2026-10-22T17:00:00+00:00",
+      "last_run_at": "2026-10-21T17:00:24.617935+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,8 +200,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-20T17:00:00+00:00",
-        "dispatched_at": "2026-10-20T17:00:00.203967+00:00",
+        "scheduled_at": "2026-10-21T17:00:00+00:00",
+        "dispatched_at": "2026-10-21T17:00:00.205233+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 71
+        "completed": 72
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-10-21T12:10:00+00:00",
-      "last_run_at": "2026-10-20T12:10:05.155427+00:00",
+      "next_run_at": "2026-10-22T12:10:00+00:00",
+      "last_run_at": "2026-10-21T12:10:06.212193+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,8 +256,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-20T12:10:00+00:00",
-        "dispatched_at": "2026-10-20T12:10:00.206698+00:00",
+        "scheduled_at": "2026-10-21T12:10:00+00:00",
+        "dispatched_at": "2026-10-21T12:10:00.207184+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 71
+        "completed": 72
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-10-22T06:15:00+00:00",
-      "last_run_at": "2026-10-20T06:15:08.515097+00:00",
+      "next_run_at": "2026-10-23T06:15:00+00:00",
+      "last_run_at": "2026-10-21T06:15:09.953780+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,12 +311,12 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-10-21T06:15:01.573226+00:00",
-        "by": "srv1833056:708:b3902169c1724c59a9df997564846f33"
+        "at": "2026-10-22T06:15:01.333402+00:00",
+        "by": "srv1833056:708:ae240df1e54841fbb878da94fe3a0060"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-10-21T06:15:00+00:00",
-        "dispatched_at": "2026-10-21T06:15:00.208939+00:00",
+        "scheduled_at": "2026-10-22T06:15:00+00:00",
+        "dispatched_at": "2026-10-22T06:15:00.203046+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -345,15 +345,137 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 53
+        "completed": 99
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T02:42:33.228884+00:00",
-      "next_run_at": "2026-10-21T06:35:16.684107+00:00",
-      "last_run_at": "2026-10-21T06:05:16.684107+00:00",
+      "next_run_at": "2026-10-22T06:21:19.083904+00:00",
+      "last_run_at": "2026-10-22T05:51:19.083904+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "João Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "failure_deliver": "local",
+      "last_dispatch": {
+        "scheduled_at": "2026-10-22T05:50:19.886149+00:00",
+        "dispatched_at": "2026-10-22T05:51:00.206561+00:00",
+        "lateness_seconds": 40.3,
+        "kind": "on_time"
+      },
+      "fire_claim": null
+    },
+    {
+      "id": "8e0df70674d8",
+      "name": "Instagram Dataceler — carrossel diário para aprovação",
+      "prompt": "Produza o carrossel diário para aprovação humana seguindo estritamente a skill `dataceler-instagram-production-workflow`.\n\nExecute as fases em ordem: pesquisa → ideação → escrita editorial → direção de arte e render HTML/CSS → legenda → QA e pacote master. Trabalhe uma fase por vez; só carregue a skill especialista indicada para a fase ativa após o gate da anterior passar. Use os arquivos do diretório do workflow como passagem de contexto e registre todos os estados/gates em `workflow.json`.\n\nO padrão visual obrigatório é Dataceler Navy HTML. Use Chromium/Playwright para renderizar os slides e Higgsfield apenas se um ativo visual gerado aumentar materialmente a compreensão; nunca para renderizar texto ou layout do carrossel.\n\nEntregue somente quando QA estiver aprovado: ZIP de originais PNG sem compressão, manifesto SHA-256, legenda, fontes, contact sheet e verification.json. Não publique no Instagram, não crie container/rascunho de API e não faça nenhuma ação externa de postagem. A aprovação do conteúdo não é autorização para publicação.",
+      "skills": [
+        "dataceler-instagram-production-workflow"
+      ],
+      "skill": "dataceler-instagram-production-workflow",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * *",
+        "display": "0 11 * * *"
+      },
+      "schedule_display": "0 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-20T03:06:20.185891+00:00",
+      "next_run_at": "2026-10-22T11:00:00+00:00",
+      "last_run_at": "2026-10-21T11:05:47.577779+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "João Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944",
+        "scope_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "web",
+        "skills",
+        "file",
+        "vision"
+      ],
+      "workdir": null,
+      "attach_to_session": true,
+      "fire_claim": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-21T11:00:00+00:00",
+        "dispatched_at": "2026-10-21T11:00:00.209058+00:00",
+        "lateness_seconds": 0.2,
+        "kind": "on_time"
+      }
+    },
+    {
+      "id": "3e4ae4eb12c0",
+      "name": "Discord — aviso de conclusão da auditoria Adriano",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "discord-audit-completion-monitor.py",
+      "no_agent": true,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 2,
+        "display": "every 2m"
+      },
+      "schedule_display": "every 2m",
+      "repeat": {
+        "times": null,
+        "completed": 86
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-22T01:03:35.487726+00:00",
+      "paused_reason": null,
+      "created_at": "2026-10-21T20:44:35.153029+00:00",
+      "next_run_at": "2026-10-22T01:04:01.516082+00:00",
+      "last_run_at": "2026-10-22T01:02:01.516082+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -372,76 +494,13 @@
       "workdir": null,
       "failure_deliver": "origin",
       "last_dispatch": {
-        "scheduled_at": "2026-10-21T06:04:15.828696+00:00",
-        "dispatched_at": "2026-10-21T06:05:00.208069+00:00",
-        "lateness_seconds": 44.4,
+        "scheduled_at": "2026-10-22T01:01:01.460960+00:00",
+        "dispatched_at": "2026-10-22T01:02:00.214618+00:00",
+        "lateness_seconds": 58.8,
         "kind": "on_time"
       },
       "fire_claim": null
-    },
-    {
-      "id": "8e0df70674d8",
-      "name": "Instagram Dataceler — carrossel diário para aprovação",
-      "prompt": "Produza o carrossel diário da Dataceler para aprovação humana. Não publique no Instagram, não crie rascunho na plataforma e não execute qualquer ação externa de postagem.\n\nSiga as skills `dataceler-instagram-carousel-editorial` e `grounded-citations`.\n\nPadrão visual obrigatório: HTML/CSS determinístico inspirado no sistema existente do repositório privado `dataceler/Dataceler_AIOS`, especialmente `areas/02-marketing/instagram/`. Replique a linguagem própria da Dataceler — composição editorial em retrato, hierarquia tipográfica forte, paleta, espaço negativo, rodapé com avatar oficial e barra de progresso — sem copiar conteúdo ou dados privados. Não use geradores de imagem nem Pillow como renderizador principal.\n\nFluxo obrigatório:\n1. Pesquise e valide fatos em fontes primárias verificáveis; separe fato, análise e hipótese.\n2. Defina tese empresarial e roteiro de exatamente 10 slides, uma ideia por slide.\n3. Crie `cards.html` em 1080×1350 com todos os slides e ativo local do avatar oficial.\n4. Renderize cada `.slide` por bounding box real com Chromium/Playwright em PNG RGB 1080×1350; não faça recortes manuais.\n5. Faça QA automático: 10 PNGs não vazios, dimensões 1080×1350, RGB, nenhum overflow HTML. Faça QA visual da folha de contato e dos slides densos/CTA.\n6. Entregue o pacote em `/root/.hermes/artifacts/instagram-dataceler/daily/YYYY-MM-DD-<slug>/` com `cards.html`, `slides/slide-01.png` até `slide-10.png`, `contact-sheet.jpg`, `caption.md`, `structured-content.md`, `source.md`, `verification.json` e ZIP validado.\n7. Informe tema, tese, fontes, resultado objetivo de QA, caminho do ZIP e anexe a folha de contato. Peça aprovação explícita.\n\nAprovação do material não autoriza publicação. Se ocorrer bloqueio técnico, reporte o bloqueio com evidência e não invente artefatos.",
-      "skills": [
-        "dataceler-instagram-carousel-editorial",
-        "grounded-citations"
-      ],
-      "skill": "dataceler-instagram-carousel-editorial",
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 11 * * *",
-        "display": "0 11 * * *"
-      },
-      "schedule_display": "0 11 * * *",
-      "repeat": {
-        "times": null,
-        "completed": 2
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-10-20T03:06:20.185891+00:00",
-      "next_run_at": "2026-10-21T11:00:00+00:00",
-      "last_run_at": "2026-10-20T11:07:13.933618+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "last_delivery_unverified": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "telegram",
-        "chat_id": "984255944",
-        "chat_name": "João Cordeiro",
-        "thread_id": null,
-        "user_id": "984255944",
-        "scope_id": null
-      },
-      "enabled_toolsets": [
-        "terminal",
-        "web"
-      ],
-      "workdir": null,
-      "attach_to_session": true,
-      "fire_claim": null,
-      "last_dispatch": {
-        "scheduled_at": "2026-10-20T11:00:00+00:00",
-        "dispatched_at": "2026-10-20T11:00:00.207981+00:00",
-        "lateness_seconds": 0.2,
-        "kind": "on_time"
-      }
     }
   ],
-  "updated_at": "2026-10-21T06:15:01.574633+00:00"
+  "updated_at": "2026-10-22T06:15:01.335825+00:00"
 }
