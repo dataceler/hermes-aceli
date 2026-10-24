@@ -120,17 +120,17 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 81
+        "completed": 82
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-10-23T12:03:00+00:00",
-      "last_run_at": "2026-10-22T12:04:06.554912+00:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: This content was flagged for possible biological risk. If this seems wrong, try rephrasing your request. We are continuously refining our work in detecting biological risk, and you can read more about our approach in our blog post: https://openai.com/index/preparing-for-future-ai-capabilities-in-bio",
+      "next_run_at": "2026-10-24T12:03:00+00:00",
+      "last_run_at": "2026-10-23T12:06:29.029716+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
@@ -147,12 +147,12 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-22T12:03:00+00:00",
-        "dispatched_at": "2026-10-22T12:03:00.212884+00:00",
+        "scheduled_at": "2026-10-23T12:03:00+00:00",
+        "dispatched_at": "2026-10-23T12:03:00.210174+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
-      "failure_streak": 1
+      "failure_streak": 0
     },
     {
       "id": "04d2c05b1683",
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 81
+        "completed": 82
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-10-23T17:00:00+00:00",
-      "last_run_at": "2026-10-22T17:00:25.332042+00:00",
+      "next_run_at": "2026-10-24T17:00:00+00:00",
+      "last_run_at": "2026-10-23T17:00:26.993458+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,8 +200,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-22T17:00:00+00:00",
-        "dispatched_at": "2026-10-22T17:00:00.207822+00:00",
+        "scheduled_at": "2026-10-23T17:00:00+00:00",
+        "dispatched_at": "2026-10-23T17:00:00.203943+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 73
+        "completed": 74
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-10-23T12:10:00+00:00",
-      "last_run_at": "2026-10-22T12:10:07.163118+00:00",
+      "next_run_at": "2026-10-24T12:10:00+00:00",
+      "last_run_at": "2026-10-23T12:10:05.893423+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,8 +256,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-22T12:10:00+00:00",
-        "dispatched_at": "2026-10-22T12:10:00.210676+00:00",
+        "scheduled_at": "2026-10-23T12:10:00+00:00",
+        "dispatched_at": "2026-10-23T12:10:00.213868+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       },
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 73
+        "completed": 74
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-10-24T06:15:00+00:00",
-      "last_run_at": "2026-10-22T06:15:11.161435+00:00",
+      "next_run_at": "2026-10-25T06:15:00+00:00",
+      "last_run_at": "2026-10-23T06:15:10.743419+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,13 +311,13 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-10-23T06:15:01.543020+00:00",
-        "by": "srv1833056:708:75cc6897fbb84bad8cee147c647f04ec"
+        "at": "2026-10-24T06:15:37.168418+00:00",
+        "by": "srv1833056:709:42fda115c6de4c4cb96fc0b96d374463"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T06:15:00+00:00",
-        "dispatched_at": "2026-10-23T06:15:00.213675+00:00",
-        "lateness_seconds": 0.2,
+        "scheduled_at": "2026-10-24T06:15:00+00:00",
+        "dispatched_at": "2026-10-24T06:15:35.823070+00:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "failure_streak": 0
@@ -345,15 +345,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 146
+        "completed": 190
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T02:42:33.228884+00:00",
-      "next_run_at": "2026-10-23T06:38:09.289574+00:00",
-      "last_run_at": "2026-10-23T06:08:09.289574+00:00",
+      "next_run_at": "2026-10-24T06:24:43.534723+00:00",
+      "last_run_at": "2026-10-24T05:54:43.534723+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -372,9 +372,9 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T06:07:08.643859+00:00",
-        "dispatched_at": "2026-10-23T06:08:00.220187+00:00",
-        "lateness_seconds": 51.6,
+        "scheduled_at": "2026-10-24T05:53:43.730996+00:00",
+        "dispatched_at": "2026-10-24T05:54:35.817061+00:00",
+        "lateness_seconds": 52.1,
         "kind": "on_time"
       },
       "fire_claim": null
@@ -404,20 +404,20 @@
       "schedule_display": "0 11 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 5
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T03:06:20.185891+00:00",
-      "next_run_at": "2026-10-23T11:00:00+00:00",
-      "last_run_at": "2026-10-22T11:02:45.147282+00:00",
-      "last_status": "error",
-      "last_error": "Workflow bloqueado na etapa **direção de arte/renderização**.\n\n- Pesquisa, ideação e escrita editorial foram concluídas e registradas no workflow.\n- As fontes primárias do NIST foram verificadas com ledger e evidências.\n- O roteiro de 10 slides e o validador de transformação do leitor passaram.\n- Não há Chromium/Chrome nem Playwright disponível no ambiente.\n- A instalação via `npx playwright` foi bloqueada pela política de segurança do cron; não usei Pillow ou renderizador alternativo porque violaria o fluxo obrigatório.\n- Nenhum PNG, ZIP, rascunho ou publicação no Instagram foi criado.\n\nEstado persistido em:\n`/root/.hermes/artifacts/instagram-dataceler/workflows/2026-10-22-ia-operacional-com-controles/workflow.json`",
+      "next_run_at": "2026-10-24T11:00:00+00:00",
+      "last_run_at": "2026-10-23T11:04:35.922371+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "last_delivery_unverified": null,
-      "failure_streak": 1,
+      "failure_streak": 0,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -438,8 +438,8 @@
       "attach_to_session": true,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-22T11:00:00+00:00",
-        "dispatched_at": "2026-10-22T11:00:00.208030+00:00",
+        "scheduled_at": "2026-10-23T11:00:00+00:00",
+        "dispatched_at": "2026-10-23T11:00:00.209412+00:00",
         "lateness_seconds": 0.2,
         "kind": "on_time"
       }
@@ -502,5 +502,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-23T06:15:01.544116+00:00"
+  "updated_at": "2026-10-24T06:15:37.169555+00:00"
 }
