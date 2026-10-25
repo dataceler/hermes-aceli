@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 82
+        "completed": 83
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-10-24T12:03:00+00:00",
-      "last_run_at": "2026-10-23T12:06:29.029716+00:00",
+      "next_run_at": "2026-10-25T12:03:00+00:00",
+      "last_run_at": "2026-10-24T12:06:55.816826+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,9 +147,9 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T12:03:00+00:00",
-        "dispatched_at": "2026-10-23T12:03:00.210174+00:00",
-        "lateness_seconds": 0.2,
+        "scheduled_at": "2026-10-24T12:03:00+00:00",
+        "dispatched_at": "2026-10-24T12:03:35.816391+00:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "failure_streak": 0
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 82
+        "completed": 83
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-10-24T17:00:00+00:00",
-      "last_run_at": "2026-10-23T17:00:26.993458+00:00",
+      "next_run_at": "2026-10-25T17:00:00+00:00",
+      "last_run_at": "2026-10-24T17:00:53.324818+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,9 +200,9 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T17:00:00+00:00",
-        "dispatched_at": "2026-10-23T17:00:00.203943+00:00",
-        "lateness_seconds": 0.2,
+        "scheduled_at": "2026-10-24T17:00:00+00:00",
+        "dispatched_at": "2026-10-24T17:00:35.823084+00:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "failure_streak": 0
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 74
+        "completed": 75
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-10-24T12:10:00+00:00",
-      "last_run_at": "2026-10-23T12:10:05.893423+00:00",
+      "next_run_at": "2026-10-25T12:10:00+00:00",
+      "last_run_at": "2026-10-24T12:10:41.099876+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,9 +256,9 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T12:10:00+00:00",
-        "dispatched_at": "2026-10-23T12:10:00.213868+00:00",
-        "lateness_seconds": 0.2,
+        "scheduled_at": "2026-10-24T12:10:00+00:00",
+        "dispatched_at": "2026-10-24T12:10:35.824724+00:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "failure_streak": 0
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 74
+        "completed": 75
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-10-25T06:15:00+00:00",
-      "last_run_at": "2026-10-23T06:15:10.743419+00:00",
+      "next_run_at": "2026-10-26T06:15:00+00:00",
+      "last_run_at": "2026-10-24T06:15:43.458075+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,12 +311,12 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-10-24T06:15:37.168418+00:00",
-        "by": "srv1833056:709:42fda115c6de4c4cb96fc0b96d374463"
+        "at": "2026-10-25T06:15:37.003274+00:00",
+        "by": "srv1833056:709:8c68c8a646f647afaf6a3b2417f6beaa"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-10-24T06:15:00+00:00",
-        "dispatched_at": "2026-10-24T06:15:35.823070+00:00",
+        "scheduled_at": "2026-10-25T06:15:00+00:00",
+        "dispatched_at": "2026-10-25T06:15:35.825015+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -345,15 +345,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 190
+        "completed": 237
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T02:42:33.228884+00:00",
-      "next_run_at": "2026-10-24T06:24:43.534723+00:00",
-      "last_run_at": "2026-10-24T05:54:43.534723+00:00",
+      "next_run_at": "2026-10-25T06:41:44.363558+00:00",
+      "last_run_at": "2026-10-25T06:11:44.363558+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -372,9 +372,9 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-10-24T05:53:43.730996+00:00",
-        "dispatched_at": "2026-10-24T05:54:35.817061+00:00",
-        "lateness_seconds": 52.1,
+        "scheduled_at": "2026-10-25T06:10:45.048830+00:00",
+        "dispatched_at": "2026-10-25T06:11:35.816837+00:00",
+        "lateness_seconds": 50.8,
         "kind": "on_time"
       },
       "fire_claim": null
@@ -404,15 +404,15 @@
       "schedule_display": "0 11 * * *",
       "repeat": {
         "times": null,
-        "completed": 5
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T03:06:20.185891+00:00",
-      "next_run_at": "2026-10-24T11:00:00+00:00",
-      "last_run_at": "2026-10-23T11:04:35.922371+00:00",
+      "next_run_at": "2026-10-25T11:00:00+00:00",
+      "last_run_at": "2026-10-24T11:15:58.915645+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -438,9 +438,9 @@
       "attach_to_session": true,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T11:00:00+00:00",
-        "dispatched_at": "2026-10-23T11:00:00.209412+00:00",
-        "lateness_seconds": 0.2,
+        "scheduled_at": "2026-10-24T11:00:00+00:00",
+        "dispatched_at": "2026-10-24T11:00:35.826820+00:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       }
     },
@@ -500,7 +500,66 @@
         "kind": "on_time"
       },
       "fire_claim": null
+    },
+    {
+      "id": "2d4436580f92",
+      "name": "Design intelligence — 5 referências diárias de páginas de vendas",
+      "prompt": "Todos os dias, pesquise e entregue exatamente 5 novas referências reais de páginas de vendas/landing pages excepcionais para inspirar a futura página de vendas da Dataceler. Objetivo: repertório visual e de conversão, não notícias de design.\n\nProcesso obrigatório:\n1. Pesquise páginas ativas e acessíveis publicamente; priorize SaaS B2B, IA, serviços premium, consultoria, tecnologia empresarial e produtos complexos que expliquem valor com clareza.\n2. Use a continuidade do job para evitar repetir sites já enviados. Se não houver 5 páginas inéditas de alta qualidade, declare a limitação e use apenas referências realmente distintas e úteis — nunca preencha com links fracos.\n3. Avalie cada página pela primeira dobra, proposta de valor, hierarquia, prova/credibilidade, CTA, ritmo da narrativa, uso de imagem/interface e adequação como referência para Dataceler. Não trate uma galeria de design como referência se a página original estiver acessível.\n4. Envie, para cada uma: nome + URL direta; uma linha sobre o que torna a página visualmente forte; 2–3 elementos específicos que merecem ser estudados/adaptados; e uma ressalva quando a estética não combina com a Dataceler.\n5. Feche obrigatoriamente com o relatório comparativo:\n   - \"O que elas têm em comum\": até 5 padrões recorrentes, explicando por que são eficazes para clareza e conversão.\n   - \"Pontos fortes em destaque\": os 3 a 5 elementos mais fortes encontrados no conjunto, identificando a página que melhor os executa e o aprendizado aplicável à Dataceler.\n   - \"Experimento para a Dataceler\": uma hipótese concreta de página a testar. Não copie textos, identidade ou layout integral de terceiros.\n\nFormato: briefing curto, em português do Brasil, com links clicáveis. Não criar, editar ou publicar nenhuma página. Não mencionar ferramentas internas ou processo de busca.",
+      "skills": [
+        "popular-web-designs"
+      ],
+      "skill": "popular-web-designs",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": [
+        "self"
+      ],
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * *",
+        "display": "0 11 * * *"
+      },
+      "schedule_display": "0 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-24T19:28:04.719201+00:00",
+      "next_run_at": "2026-10-25T11:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "984255944",
+        "chat_name": "João Cordeiro",
+        "thread_id": null,
+        "user_id": "984255944",
+        "scope_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "vision",
+        "file"
+      ],
+      "workdir": null,
+      "attach_to_session": true,
+      "failure_deliver": "local"
     }
   ],
-  "updated_at": "2026-10-24T06:15:37.169555+00:00"
+  "updated_at": "2026-10-25T06:15:37.004845+00:00"
 }
