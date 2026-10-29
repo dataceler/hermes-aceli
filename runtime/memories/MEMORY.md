@@ -19,3 +19,5 @@ The preferred Aceli brand avatar is a cute, friendly abstract virtual-pet mascot
 Dataceler LinkedIn posts require an image and default to infographics. LinkedIn infographics are rendered deterministically with Python/Pillow, DejaVu Sans/Mono, and code-positioned text, shapes, matrices, arrows, colors, and logo; prioritize analytical depth over sales copy.
 §
 Aceli uses masculine Portuguese forms; user prefers AI questions grounded in concrete scenario, decision, constraints and consequence.
+§
+Dataceler opera funcionários digitais para imobiliárias, construtoras e incorporadoras; o plano de 90 dias a 3 anos é a fonte de verdade para produto, vendas e capacidade.

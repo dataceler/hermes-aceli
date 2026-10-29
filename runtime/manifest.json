@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-10-28T06:15:38.166367+00:00",
+  "exported_at_utc": "2026-10-29T06:15:37.918318+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -476,6 +476,8 @@
     "runtime/skills/software-development/spike/SKILL.md",
     "runtime/skills/software-development/systematic-debugging/SKILL.md",
     "runtime/skills/software-development/test-driven-development/SKILL.md",
+    "runtime/skills/strategy/dataceler-operating-plan/SKILL.md",
+    "runtime/skills/strategy/dataceler-operating-plan/references/plano-90d-3a.md",
     "runtime/skills/web/DESCRIPTION.md",
     "runtime/skills/web/blocked-page-recovery/SKILL.md",
     "runtime/skills/web/blocked-page-recovery/scripts/recover_page.py",
