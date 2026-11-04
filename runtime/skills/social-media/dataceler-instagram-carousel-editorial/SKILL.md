@@ -146,8 +146,11 @@ Todos os carrosséis institucionais da Dataceler devem usar o sistema HTML/CSS a
 - rodapé fixo com avatar oficial e barra de progresso de 10 etapas;
 - bloco editorial centralizado verticalmente entre cabeçalho e rodapé; não deixar conteúdo pendurado no topo com vazio excessivo abaixo;
 - tipografia Inter + JetBrains Mono para labels; títulos fortes, espaço negativo intencional;
-- diagramas funcionais — fluxos, cartões, listas, etapas e comparações — quando eles esclarecerem uma decisão; não adicionar decoração sem função;
-- não alterar a estrutura de composição por tema. Mude o conteúdo e o diagrama, não a identidade.
+- cada slide precisa de uma composição visual que materialize a ideia: cena operacional, diagrama, interface simulada, mapa de sistemas, ilustração técnica, fotografia/ativo sintético quando pertinente ou comparação. Texto e cards sozinhos só são aceitos quando a mensagem é uma síntese final deliberadamente minimalista;
+- diagramas funcionais — fluxos, cartões, listas, etapas e comparações — devem explicar uma decisão, e não substituir cena visual por decoração;
+- antes do render, declarar para cada slide o seu elemento visual e a pergunta que ele torna mais fácil de entender. Reprovar sequência de "headline + cards" repetida, espaço negativo sem função ou slide que poderia ser apenas um texto;
+- quando imagem sintética aumentar concretude, gerar ativo original separado e usar HTML/CSS somente para texto e composição; nunca pedir à geração de imagem para renderizar texto de slide;
+- não alterar a estrutura de composição por tema. Mude o conteúdo, cena e diagrama, não a identidade.
 
 **Concluído quando:** o sistema é reconhecível como Dataceler, mantém consistência navy e não é uma cópia de terceiros.
 
