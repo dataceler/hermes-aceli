@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 102
+        "completed": 103
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-11-13T12:03:00+00:00",
-      "last_run_at": "2026-11-12T12:06:16.776875+00:00",
+      "next_run_at": "2026-11-14T12:03:00+00:00",
+      "last_run_at": "2026-11-13T12:05:46.732332+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,8 +147,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-12T12:03:00+00:00",
-        "dispatched_at": "2026-11-12T12:03:35.822285+00:00",
+        "scheduled_at": "2026-11-13T12:03:00+00:00",
+        "dispatched_at": "2026-11-13T12:03:35.820977+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 102
+        "completed": 103
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-11-13T17:00:00+00:00",
-      "last_run_at": "2026-11-12T17:00:54.707566+00:00",
+      "next_run_at": "2026-11-14T17:00:00+00:00",
+      "last_run_at": "2026-11-13T17:00:53.009496+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,8 +200,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-12T17:00:00+00:00",
-        "dispatched_at": "2026-11-12T17:00:35.821022+00:00",
+        "scheduled_at": "2026-11-13T17:00:00+00:00",
+        "dispatched_at": "2026-11-13T17:00:35.819770+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 94
+        "completed": 95
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-11-13T12:10:00+00:00",
-      "last_run_at": "2026-11-12T12:10:41.998108+00:00",
+      "next_run_at": "2026-11-14T12:10:00+00:00",
+      "last_run_at": "2026-11-13T12:10:41.823960+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,8 +256,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-12T12:10:00+00:00",
-        "dispatched_at": "2026-11-12T12:10:35.825355+00:00",
+        "scheduled_at": "2026-11-13T12:10:00+00:00",
+        "dispatched_at": "2026-11-13T12:10:35.818554+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 94
+        "completed": 95
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-11-14T06:15:00+00:00",
-      "last_run_at": "2026-11-12T06:15:42.322942+00:00",
+      "next_run_at": "2026-11-15T06:15:00+00:00",
+      "last_run_at": "2026-11-13T06:15:43.194743+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,12 +311,12 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-11-13T06:15:36.735859+00:00",
-        "by": "srv1833056:709:a41fb4e0071c49f3ba92f02bce417d2f"
+        "at": "2026-11-14T06:15:36.794723+00:00",
+        "by": "srv1833056:709:4544725cd2564a97b7b0c32e4e183b21"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-11-13T06:15:00+00:00",
-        "dispatched_at": "2026-11-13T06:15:35.817826+00:00",
+        "scheduled_at": "2026-11-14T06:15:00+00:00",
+        "dispatched_at": "2026-11-14T06:15:35.817998+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -345,15 +345,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 1119
+        "completed": 1166
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T02:42:33.228884+00:00",
-      "next_run_at": "2026-11-13T06:23:43.455585+00:00",
-      "last_run_at": "2026-11-13T05:53:43.455585+00:00",
+      "next_run_at": "2026-11-14T06:40:46.658938+00:00",
+      "last_run_at": "2026-11-14T06:10:46.658938+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -372,9 +372,9 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-13T05:52:44.736214+00:00",
-        "dispatched_at": "2026-11-13T05:53:35.819599+00:00",
-        "lateness_seconds": 51.1,
+        "scheduled_at": "2026-11-14T06:09:43.051749+00:00",
+        "dispatched_at": "2026-11-14T06:10:35.819956+00:00",
+        "lateness_seconds": 52.8,
         "kind": "on_time"
       },
       "fire_claim": null
@@ -528,20 +528,20 @@
       "schedule_display": "0 11 * * *",
       "repeat": {
         "times": null,
-        "completed": 19
+        "completed": 20
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-24T19:28:04.719201+00:00",
-      "next_run_at": "2026-11-13T11:00:00+00:00",
-      "last_run_at": "2026-11-12T11:02:26.706262+00:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-11-14T11:00:00+00:00",
+      "last_run_at": "2026-11-13T11:03:16.393798+00:00",
+      "last_status": "error",
+      "last_error": "## 5 referências de hoje\n\n1. **[Sierra](https://sierra.ai/)**\n   - Visualmente forte porque apresenta a plataforma como uma experiência de atendimento completa, ligando canais, resultado e confiança empresarial.\n   - Estudar:\n     - Faixa ampla de marcas antes da explicação do produto.\n     - Blocos por resultado operacional, não por funcionalidades.\n     - Telas de produto integradas à narrativa de cada capacidade.\n   - *Ressalva:* a linguagem corporativa global pode parecer distante para imobiliárias; usar situações locais e reconhecíveis de lead, visita e proposta.\n\n2. **[Decagon](https://decagon.ai/)**\n   - Visualmente forte porque abre com ações concretas já concluídas e sustenta a promessa com casos e métricas de resultado.\n   - Estudar:\n     - Hero baseado em desfechos, não em tecnologia.\n     - Exemplos curtos de conversas que viram ação.\n     - Métricas de clientes inseridas no percurso da página.\n   - *Ressalva:* o tom de concierge premium deve ser traduzido para eficiência comercial e atendimento consultivo imobiliário.\n\n3. **[Day AI](https://day.ai/go/ai-native-crm)**\n   - Visualmente forte porque transforma agentes em colegas de trabalho identificáveis, com função, agenda, fontes e alçadas claras.\n   - Estudar:\n     - Painel matinal com prioridades e próximos passos.\n     - Respostas ancoradas em conversas e registros específicos.\n     - Aprovação humana explícita antes de atualizações no CRM.\n   - *Ressalva:* a densidade de interface é alta; para a Dataceler, mostrar uma jornada por vez será mais persuasivo.\n\n4. **[Artisan](https://artisan.co/)**\n   - Visualmente forte porque coloca atividade real do produto no hero e faz o visitante enxergar rapidamente o que o agente executa.\n   - Estudar:\n     - Feed de ações recentes, como mensagem enviada, escalonamento e sincronização.\n     - Indicadores operacionais próximos da interface.\n     - Prova social e cases distribuídos ao longo da narrativa.\n   - *Ressalva:* a estética de outbound é muito focada em volume; adaptar para velocidade, qualidade de resposta e avanço do lead.\n\n5. **[Delve](https://delve.co/)**\n   - Visualmente forte porque começa pela perda de receita causada por um problema e usa interfaces para tornar a solução concreta.\n   - Estudar:\n     - Abertura com uma consequência comercial específica.\n     - Sequência visual de problema, intervenção e resultado.\n     - Progressão em etapas para explicar uma operação complexa.\n   - *Ressalva:* o clima de risco e compliance é mais tenso que o necessário; usar urgência sem alarmismo na página Dataceler.\n\n## O que elas têm em comum\n\n- Mostram trabalho real antes de aprofundar funcionalidades.\n- Traduzem IA em ações, responsabilidades e resultados observáveis.\n- Usam interface como prova, não como decoração.\n- Combinam demonstração operacional com confiança, marcas ou métricas.\n- Deixam regras, supervisão ou aprovação humana visíveis em pontos críticos.\n\n## Pontos fortes em destaque\n\n- **Melhor demonstração de agente como função: Day AI.**  \n  *Aprendizado:* nomear cada funcionário digital pela responsabilidade e exibir o que ele consultou, decidiu e encaminhou.\n\n- **Melhor prova de execução visível: Artisan.**  \n  *Aprendizado:* criar um hero com feed de atividade imobiliária, como lead respondido, visita sugerida, corretor acionado e CRM atualizado.\n\n- **Melhor narrativa de resultado: Decagon.**  \n  *Aprendizado:* abrir a Dataceler por consequências concretas, como visita agendada, intenção identificada ou lead recuperado.\n\n- **Melhor enquadramento de problema comercial: Delve.**  \n  *Aprendizado:* mostrar o custo operacional de deixar um lead sem resposta e ligar diretamente esse risco à solução.\n\n- **Melhor combinação de escala e confiança: Sierra.**  \n  *Aprendizado:* agrupar prova social, canais atendidos e resultados para reduzir o risco percebido por decisores.\n\n## Experimento para a Dataceler\n\n**Hipótese:** uma landing page que abre com um painel de atividade de um lead imobiliário, mostra o funcionário digital consultando contexto, propondo uma visita e pedindo aprovação quando necessário gerará mais pedidos de diagnóstico do que uma página que começa explicando IA.\n\n- Hero: **“Enquanto sua equipe atende um cliente, o próximo lead já está sendo qualificado.”**\n- Demonstração: lead chega pelo WhatsApp, o sistema identifica intenção, consulta disponibilidade, sugere imóvel ou visita e registra o contexto.\n- Prova operacional: tempo até primeira resposta, conversas qualificadas e visitas avançadas.\n- Controle: regras de encaminhamento, fonte do contexto e situações que exigem aprovação humana.\n- CTA: **“Encontrar os leads que sua operação deixa esfriar.”**\n\n## Swipe File: 0 sites gravados\n\nNão gravei no Swipe File: `/usr/bin/bash: line 5: /root/.hermes/scripts/run-dataceler-swipe-file.sh: Permission denied`. Os sites do dia estão só aqui no Telegram.",
       "last_delivery_error": null,
       "last_delivery_unverified": null,
-      "failure_streak": 0,
+      "failure_streak": 1,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -561,13 +561,13 @@
       "attach_to_session": true,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-12T11:00:00+00:00",
-        "dispatched_at": "2026-11-12T11:00:35.820467+00:00",
+        "scheduled_at": "2026-11-13T11:00:00+00:00",
+        "dispatched_at": "2026-11-13T11:00:35.819629+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-11-13T06:15:36.738011+00:00"
+  "updated_at": "2026-11-14T06:15:36.796001+00:00"
 }
