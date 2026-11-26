@@ -120,15 +120,15 @@
       "schedule_display": "3 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 114
+        "completed": 115
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-03T19:47:08.842987+00:00",
-      "next_run_at": "2026-11-25T12:03:00+00:00",
-      "last_run_at": "2026-11-24T12:05:44.360176+00:00",
+      "next_run_at": "2026-11-26T12:03:00+00:00",
+      "last_run_at": "2026-11-25T12:05:42.209598+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,8 +147,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-24T12:03:00+00:00",
-        "dispatched_at": "2026-11-24T12:03:35.822908+00:00",
+        "scheduled_at": "2026-11-25T12:03:00+00:00",
+        "dispatched_at": "2026-11-25T12:03:35.816546+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -176,15 +176,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 114
+        "completed": 115
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-04T21:47:18.791664+00:00",
-      "next_run_at": "2026-11-25T17:00:00+00:00",
-      "last_run_at": "2026-11-24T17:00:57.249029+00:00",
+      "next_run_at": "2026-11-26T17:00:00+00:00",
+      "last_run_at": "2026-11-25T17:00:56.954681+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -200,8 +200,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-24T17:00:00+00:00",
-        "dispatched_at": "2026-11-24T17:00:35.821798+00:00",
+        "scheduled_at": "2026-11-25T17:00:00+00:00",
+        "dispatched_at": "2026-11-25T17:00:35.823906+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -232,15 +232,15 @@
       "schedule_display": "10 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 106
+        "completed": 107
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T18:09:28.078750+00:00",
-      "next_run_at": "2026-11-25T12:10:00+00:00",
-      "last_run_at": "2026-11-24T12:10:42.470301+00:00",
+      "next_run_at": "2026-11-26T12:10:00+00:00",
+      "last_run_at": "2026-11-25T12:10:40.298486+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -256,8 +256,8 @@
       "workdir": null,
       "fire_claim": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-24T12:10:00+00:00",
-        "dispatched_at": "2026-11-24T12:10:35.818792+00:00",
+        "scheduled_at": "2026-11-25T12:10:00+00:00",
+        "dispatched_at": "2026-11-25T12:10:35.819287+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -288,15 +288,15 @@
       "schedule_display": "15 6 * * *",
       "repeat": {
         "times": null,
-        "completed": 106
+        "completed": 107
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-11T04:06:23.764535+00:00",
-      "next_run_at": "2026-11-26T06:15:00+00:00",
-      "last_run_at": "2026-11-24T06:15:43.533894+00:00",
+      "next_run_at": "2026-11-27T06:15:00+00:00",
+      "last_run_at": "2026-11-25T06:15:44.673101+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -311,12 +311,12 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": {
-        "at": "2026-11-25T06:15:36.901620+00:00",
-        "by": "srv1833056:709:8f43264f19db4f268063af1b0d7ec69b"
+        "at": "2026-11-26T06:15:36.774695+00:00",
+        "by": "srv1833056:709:a70d0ea31be147778adabfa3de82a6fb"
       },
       "last_dispatch": {
-        "scheduled_at": "2026-11-25T06:15:00+00:00",
-        "dispatched_at": "2026-11-25T06:15:35.824735+00:00",
+        "scheduled_at": "2026-11-26T06:15:00+00:00",
+        "dispatched_at": "2026-11-26T06:15:35.821824+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
@@ -345,15 +345,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 1677
+        "completed": 1723
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-20T02:42:33.228884+00:00",
-      "next_run_at": "2026-11-25T06:41:44.509552+00:00",
-      "last_run_at": "2026-11-25T06:11:44.509552+00:00",
+      "next_run_at": "2026-11-26T06:27:47.459267+00:00",
+      "last_run_at": "2026-11-26T05:57:47.459267+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -372,9 +372,9 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-25T06:10:44.065615+00:00",
-        "dispatched_at": "2026-11-25T06:11:35.818713+00:00",
-        "lateness_seconds": 51.8,
+        "scheduled_at": "2026-11-26T05:56:46.393926+00:00",
+        "dispatched_at": "2026-11-26T05:57:35.817231+00:00",
+        "lateness_seconds": 49.4,
         "kind": "on_time"
       },
       "fire_claim": null
@@ -528,20 +528,20 @@
       "schedule_display": "0 11 * * *",
       "repeat": {
         "times": null,
-        "completed": 31
+        "completed": 32
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-24T19:28:04.719201+00:00",
-      "next_run_at": "2026-11-25T11:00:00+00:00",
-      "last_run_at": "2026-11-24T11:02:36.061797+00:00",
-      "last_status": "error",
-      "last_error": "## 5 referências de hoje\n\n1. **[Retool](https://retool.com/ai)**\n   - Visualmente forte porque abre com a própria interface do produto e prova rapidamente que IA, dados e controle convivem na mesma operação.\n   - Estudar: screenshot funcional no hero; logos de clientes logo após a dobra; blocos que conectam automação, auditoria e segurança.\n   - *Aplicação Dataceler:* mostrar o funcionário digital atuando sobre um lead real, com dados consultados, decisão tomada e registro concluído.\n\n2. **[Tray.ai](https://tray.ai)**\n   - Visualmente forte porque apresenta a operação como um painel vivo, com responsáveis, volume, integrações e trilha de auditoria.\n   - Estudar: matriz de artefatos operacionais; indicadores de execução por área; linguagem visual de governança inserida no produto.\n   - *Aplicação Dataceler:* criar uma cena de “central comercial” com leads em qualificação, CRM atualizado e encaminhamentos por corretor.\n\n3. **[Narada AI](https://narada.ai)**\n   - Visualmente forte porque divide o valor entre automações de retaguarda e linha de frente, tornando uma plataforma complexa fácil de navegar.\n   - Estudar: segmentação por contexto de trabalho; demonstração em vídeo como prova; segurança e integrações apresentadas junto ao produto.\n   - *Aplicação Dataceler:* separar claramente o que o funcionário digital executa antes do contato humano e o que acelera após a conversa.\n\n4. **[Decagon](https://decagon.ai)**\n   - Visualmente forte porque transforma a promessa em pequenas cenas concretas de conversa, acompanhadas de marcas e resultados mensuráveis.\n   - Estudar: mensagens curtas em movimento; prova social cedo; cases ligados a métricas específicas, não a elogios genéricos.\n   - *Aplicação Dataceler:* mostrar uma conversa imobiliária evoluindo de intenção para dados qualificados, prioridade e entrega ao corretor.\n\n5. **[Qualified](https://www.qualified.com)**\n   - Visualmente forte porque dá nome, função e jornada a um agente, mostrando onde ele atua no site, e-mail e reunião.\n   - Estudar: personagem de produto com responsabilidade clara; narrativa multicanal; demonstração e CTA integrados na mesma jornada.\n   - *Ressalva:* o tom personificado pode ser excessivo para a Dataceler; priorizar a função comercial e o resultado, não um personagem.\n\n## O que elas têm em comum\n\n- A interface ou uma cena operacional aparece antes da explicação conceitual.\n- Cada página associa IA a uma função de negócio específica.\n- Integrações, controles e segurança funcionam como evidência, não rodapé.\n- Prova social entra cedo para reduzir risco percebido.\n- O fluxo demonstra ação, resultado e próximo responsável.\n\n## Pontos fortes em destaque\n\n- **Produto como hero, Retool.**  \n  *Aprendizado:* substituir promessas abstratas por uma cena que prove a operação em segundos.\n\n- **Governança visível, Tray.ai.**  \n  *Aprendizado:* indicadores de responsável, volume e histórico tornam automação confiável para gestores.\n\n- **Organização por momento operacional, Narada AI.**  \n  *Aprendizado:* a proposta fica mais clara quando os casos de uso seguem a rotina do cliente.\n\n- **Prova em sequência, Decagon.**  \n  *Aprendizado:* conversa, contexto e resultado formam uma narrativa comercial mais forte que uma lista de funcionalidades.\n\n- **Função explícita do agente, Qualified.**  \n  *Aprendizado:* definir uma responsabilidade inequívoca evita que “IA” pareça genérica.\n\n## Experimento para a Dataceler\n\n**Hipótese:** uma primeira dobra com uma interface mostrando “Novo interesse no WhatsApp”, seguida de qualificação automática, prioridade comercial, atualização no CRM e corretor responsável, aumentará a compreensão da proposta porque evidencia o trabalho concluído pelo funcionário digital.\n\nA composição deve incluir:\n- mensagem inicial do interessado;\n- dados extraídos da conversa;\n- critério de prioridade;\n- ação registrada no CRM;\n- status de encaminhamento;\n- CTA: **“Veja como cada oportunidade chega pronta para vender.”**\n\n## Swipe File: 0 sites gravados\n\nNão gravei no Swipe File: `GITHUB_TOKEN_SWIPE não está configurado no ambiente desta execução.` Os sites do dia estão só aqui no Telegram.",
+      "next_run_at": "2026-11-26T11:00:00+00:00",
+      "last_run_at": "2026-11-25T11:02:38.910283+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "last_delivery_unverified": null,
-      "failure_streak": 12,
+      "failure_streak": 0,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -561,13 +561,13 @@
       "attach_to_session": true,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-24T11:00:00+00:00",
-        "dispatched_at": "2026-11-24T11:00:35.824090+00:00",
+        "scheduled_at": "2026-11-25T11:00:00+00:00",
+        "dispatched_at": "2026-11-25T11:00:35.820247+00:00",
         "lateness_seconds": 35.8,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-11-25T06:15:36.902846+00:00"
+  "updated_at": "2026-11-26T06:15:36.776102+00:00"
 }
