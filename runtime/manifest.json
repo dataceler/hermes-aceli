@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "exported_at_utc": "2026-11-26T06:15:38.299725+00:00",
+  "exported_at_utc": "2026-11-27T06:15:38.098540+00:00",
   "source": "/root/.hermes",
   "copied": [
     "runtime/memories/MEMORY.md",
@@ -33,7 +33,6 @@
     "runtime/skills/autonomous-ai-agents/hermes-agent/references/windows-quirks.md",
     "runtime/skills/autonomous-ai-agents/hermes-agent/templates/skin.yaml",
     "runtime/skills/autonomous-ai-agents/opencode/SKILL.md",
-    "runtime/skills/communication/discord-conversation-audits/SKILL.md",
     "runtime/skills/communication/voz-do-adriano/SKILL.md",
     "runtime/skills/creative/DESCRIPTION.md",
     "runtime/skills/creative/architecture-diagram/SKILL.md",
